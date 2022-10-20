@@ -1,0 +1,103 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class base {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		System.setProperty("webdriver.chrome.driver", "D:\\Course\\Selenium\\Drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		
+		//String[] neededProducts = {"Cucumber", "Brocolli", "Brinjal"};
+		//List<String> neededProductList = Arrays.asList(neededProducts);
+		
+		Map<String, Integer> myCart = new HashMap<String, Integer>();
+		myCart.put("Cucumber", 3);
+		myCart.put("Brocolli", 2);
+		myCart.put("Tomato", 5);
+		myCart.put("Raspberry", 10);
+		List<String> neededProductList = new ArrayList<> (myCart.keySet());
+		
+		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
+		//Thread.sleep(3000);
+		
+		List<WebElement> products =  driver.findElements(By.cssSelector("h4.product-name"));
+		
+		int itemCount=0;
+			
+		for (int i=0; i<products.size(); i++)
+		{
+			String productName = products.get(i).getText().split("-")[0].trim();							
+			
+			/*
+			for (String neederProduct :neededProductList)
+			{
+				if (productName.contains(neederProduct))
+				{
+					System.out.println(neederProduct + " was added to cart !");		
+					driver.findElements(By.xpath("//button[text()='ADD TO CART']")).get(i).click();
+					break;
+				}			
+			}
+			*/
+			
+			//"//h4[text()='Carrot - 1 Kg']/following-sibling::div[@class='product-action']/button"
+			//"//h4[contains(text(),'Carrot')]/following-sibling::div[@class='product-action']/button"
+			if (neededProductList.contains(productName))
+			{	
+				itemCount++;
+				for (int j=0; j<myCart.get(productName); j++)
+				{
+					driver.findElements(By.cssSelector(".increment")).get(i).click();
+				}
+				//driver.findElements(By.xpath("//button[text()='ADD TO CART']")).get(i).click();	
+				driver.findElements(By.xpath("//div[@class='product-action']/button")).get(i).click();
+				System.out.println(productName + " was added to cart !");
+				//Thread.sleep(5000);
+			}
+			if (itemCount==neededProductList.size())
+			{
+				System.out.println("---> All products were added to the cart !!!");
+				break;
+			}
+					
+		}
+	  	
+		
+		/*
+		for (String product :neededProductList)
+		{
+			//for(int i=0; i<myCart.get(product); i++)
+			//{
+			//	driver.findElement(By.xpath("//h4[contains(text(),'"+product+"')]/following-sibling::div[@class='stepper-input']/a[@class='increment']")).click();
+			//}
+			//driver.findElement(By.xpath("//h4[contains(text(),'"+product+"')]/following-sibling::div[@class='product-action']/button")).click();
+			System.out.println(product);
+			//System.out.println(driver.findElement(By.xpath("//h4[contains(text(),'"+product+"')]")).getText());
+			//System.out.println(driver.findElement(By.xpath("//h4[contains(text(),'"+product+"')]/parent::div/div[@class='product-action']")).getText());
+			//System.out.println(driver.findElement(By.xpath("//h4[contains(text(),'"+product+"')]/parent::div/div[@class='product-action']/button[text()='ADD TO CART']")).getText());
+			Thread.sleep(5000);
+			//driver.findElement(By.xpath("//h4[contains(text(),'"+product+"')]/parent::div/div[@class='product-action']/button[text()='ADD TO CART']")).click();
+			WebElement addToCart = driver.findElement(By.xpath("//h4[contains(text(),'"+product+"')]/parent::div/div[@class='product-action']"));
+			System.out.println(addToCart.getText());
+			addToCart.click();
+			System.out.println(product + " was added to cart !");
+			Thread.sleep(5000);
+		}
+		*/
+			
+		
+		
+		
+	}
+
+}

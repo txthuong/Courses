@@ -1,0 +1,5 @@
+dog 1
+cat 2
+lion 3
+bird 4
+rhino 5
