@@ -9,12 +9,7 @@ class TestHomePage(BaseClass):
 
     def test_formSubmission(self, get_data):
         log = self.get_logger()
-        #name = "txthuong"
-        #password = "123456"
-        #email = "txthuong@gmail.com"
-        #gender = "Male"
         employment_status = "Employed"
-        #birthday = "01/01/1991"
 
         home_page = HomePage(self.driver)
         home_page.set_name(get_data["name"])
