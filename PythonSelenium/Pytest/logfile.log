@@ -1,0 +1,41 @@
+2022-10-30 20:15:40,165: INFO: Pytest.test_logging: Information statement
+2022-10-30 20:15:40,166: WARNING: Pytest.test_logging: Something is in warning mode
+2022-10-30 20:15:40,166: ERROR: Pytest.test_logging: A Major error has happened
+2022-10-30 20:15:40,166: CRITICAL: Pytest.test_logging: Critical issue
+2022-10-30 20:16:57,892: DEBUG: Pytest.test_logging: A debug statement is executed
+2022-10-30 20:16:57,892: INFO: Pytest.test_logging: Information statement
+2022-10-30 20:16:57,893: WARNING: Pytest.test_logging: Something is in warning mode
+2022-10-30 20:16:57,893: ERROR: Pytest.test_logging: A Major error has happened
+2022-10-30 20:16:57,893: CRITICAL: Pytest.test_logging: Critical issue
+2022-10-30 20:17:15,062: CRITICAL: Pytest.test_logging: Critical issue
+2022-10-30 20:17:30,539: ERROR: Pytest.test_logging: A Major error has happened
+2022-10-30 20:17:30,539: CRITICAL: Pytest.test_logging: Critical issue
+2022-10-31 06:14:22,100: DEBUG: Pytest.BaseClass: A debug statement is executed
+2022-10-31 06:14:22,100: INFO: Pytest.BaseClass: Information statement
+2022-10-31 06:14:22,100: WARNING: Pytest.BaseClass: Something is in warning mode
+2022-10-31 06:14:22,100: ERROR: Pytest.BaseClass: A Major error has happened
+2022-10-31 06:14:22,101: CRITICAL: Pytest.BaseClass: Critical issue
+2022-10-31 06:14:22,101: INFO: Pytest.BaseClass: txthuong
+2022-10-31 06:14:22,101: INFO: Pytest.BaseClass: Learning Automation
+2022-10-31 06:17:20,343: DEBUG: Pytest.BaseClass: A debug statement is executed
+2022-10-31 06:17:20,343: INFO: Pytest.BaseClass: Information statement
+2022-10-31 06:17:20,343: WARNING: Pytest.BaseClass: Something is in warning mode
+2022-10-31 06:17:20,343: ERROR: Pytest.BaseClass: A Major error has happened
+2022-10-31 06:17:20,343: CRITICAL: Pytest.BaseClass: Critical issue
+2022-10-31 06:17:20,343: INFO: Pytest.BaseClass: txthuong
+2022-10-31 06:17:20,344: INFO: Pytest.BaseClass: Learning Automation
+2022-10-31 06:18:10,431: DEBUG: Pytest.BaseClass: A debug statement is executed
+2022-10-31 06:18:10,431: INFO: Pytest.BaseClass: Information statement
+2022-10-31 06:18:10,431: WARNING: Pytest.BaseClass: Something is in warning mode
+2022-10-31 06:18:10,432: ERROR: Pytest.BaseClass: A Major error has happened
+2022-10-31 06:18:10,432: CRITICAL: Pytest.BaseClass: Critical issue
+2022-10-31 06:18:10,432: INFO: Pytest.BaseClass: txthuong
+2022-10-31 06:18:10,432: INFO: Pytest.BaseClass: Learning Automation
+2022-10-31 06:20:13,786: INFO: test_editProfile: txthuong
+2022-10-31 06:20:13,786: INFO: test_editProfile: Learning Automation
+2022-10-31 06:22:36,122: INFO: test_editProfile: txthuong
+2022-10-31 06:22:36,122: INFO: test_editProfile: Learning Automation
+2022-10-31 06:23:51,179: INFO: test_editProfile: txthuong
+2022-10-31 06:23:51,179: INFO: test_editProfile: Learning Automation
+2022-10-31 06:28:10,764: INFO: test_editProfile: txthuong
+2022-10-31 06:28:10,764: INFO: test_editProfile: Learning Automation

@@ -3,8 +3,10 @@
 ch.qos.logback.classic,1.1.2.v20171220-1825,plugins/ch.qos.logback.classic_1.1.2.v20171220-1825.jar,4,false
 ch.qos.logback.core,1.1.2.v20160208-0839,plugins/ch.qos.logback.core_1.1.2.v20160208-0839.jar,4,false
 ch.qos.logback.slf4j,1.1.2.v20160301-0943,plugins/ch.qos.logback.slf4j_1.1.2.v20160301-0943.jar,4,false
+com.beust.jcommander,1.78.0,plugins/com.beust.jcommander_1.78.0.jar,4,false
 com.google.gson,2.8.9.v20220111-1409,plugins/com.google.gson_2.8.9.v20220111-1409.jar,4,false
 com.google.guava,30.1.0.v20210127-2300,plugins/com.google.guava_30.1.0.v20210127-2300.jar,4,false
+com.google.guava,21.0.0.v20170206-1425,plugins/com.google.guava_21.0.0.v20170206-1425.jar,4,false
 com.ibm.icu,67.1.0.v20200706-1749,plugins/com.ibm.icu_67.1.0.v20200706-1749.jar,4,false
 com.jcraft.jsch,0.1.55.v20190404-1902,plugins/com.jcraft.jsch_0.1.55.v20190404-1902.jar,4,false
 com.sun.el,2.2.0.v201303151357,plugins/com.sun.el_2.2.0.v201303151357.jar,4,false
@@ -17,6 +19,7 @@ javax.el,2.2.0.v201303151357,plugins/javax.el_2.2.0.v201303151357.jar,4,false
 javax.inject,1.0.0.v20220405-0441,plugins/javax.inject_1.0.0.v20220405-0441.jar,4,false
 javax.servlet.jsp,2.2.0.v201112011158,plugins/javax.servlet.jsp_2.2.0.v201112011158.jar,4,false
 net.i2p.crypto.eddsa,0.3.0.v20220506-1020,plugins/net.i2p.crypto.eddsa_0.3.0.v20220506-1020.jar,4,false
+org.apache-extras.beanshell.bsh,2.0.0.b6,plugins/org.apache-extras.beanshell.bsh_2.0.0.b6.jar,4,false
 org.apache.ant,1.10.12.v20211102-1452,plugins/org.apache.ant_1.10.12.v20211102-1452/,4,false
 org.apache.batik.constants,1.14.0.v20210324-0332,plugins/org.apache.batik.constants_1.14.0.v20210324-0332.jar,4,false
 org.apache.batik.css,1.14.0.v20210324-0332,plugins/org.apache.batik.css_1.14.0.v20210324-0332.jar,4,false
@@ -421,9 +424,14 @@ org.osgi.util.xml,1.0.2.202109301733,plugins/org.osgi.util.xml_1.0.2.20210930173
 org.sat4j.core,2.3.6.v20201214,plugins/org.sat4j.core_2.3.6.v20201214.jar,4,false
 org.sat4j.pb,2.3.6.v20201214,plugins/org.sat4j.pb_2.3.6.v20201214.jar,4,false
 org.slf4j.api,1.7.30.v20200204-2150,plugins/org.slf4j.api_1.7.30.v20200204-2150.jar,4,false
+org.testng,7.4.0.r202105021533,plugins/org.testng_7.4.0.r202105021533.jar,4,false
+org.testng.eclipse,7.4.0.202106051955,plugins/org.testng.eclipse_7.4.0.202106051955.jar,4,false
+org.testng.eclipse.maven,7.4.0.202106051955,plugins/org.testng.eclipse.maven_7.4.0.202106051955.jar,4,false
 org.tukaani.xz,1.9.0.v20210624-1259,plugins/org.tukaani.xz_1.9.0.v20210624-1259.jar,4,false
 org.w3c.css.sac,1.3.1.v200903091627,plugins/org.w3c.css.sac_1.3.1.v200903091627.jar,4,false
 org.w3c.dom.events,3.0.0.draft20060413_v201105210656,plugins/org.w3c.dom.events_3.0.0.draft20060413_v201105210656.jar,4,false
 org.w3c.dom.smil,1.0.1.v200903091627,plugins/org.w3c.dom.smil_1.0.1.v200903091627.jar,4,false
 org.w3c.dom.svg,1.1.0.v201011041433,plugins/org.w3c.dom.svg_1.1.0.v201011041433.jar,4,false
+org.webjars.jquery,3.5.1,plugins/org.webjars.jquery_3.5.1.jar,4,false
 org.yaml.snakeyaml,1.27.0.v20201111-1638,plugins/org.yaml.snakeyaml_1.27.0.v20201111-1638.jar,4,false
+org.yaml.snakeyaml,1.21.0,plugins/org.yaml.snakeyaml_1.21.0.jar,4,false

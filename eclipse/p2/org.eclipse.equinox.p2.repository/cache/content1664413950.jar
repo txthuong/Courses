@@ -1,0 +1,1666 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html lang="en" dir="ltr" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# book: http://ogp.me/ns/book# profile: http://ogp.me/ns/profile# video: http://ogp.me/ns/video# product: http://ogp.me/ns/product# content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" type="text/css">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://marketplace.eclipse.org/sites/all/themes/solstice/_themes/solstice_marketplace/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://marketplace.eclipse.org/content/testng-eclipse/content.jar" />
+<link rel="shortlink" href="https://marketplace.eclipse.org/node/1549/content.jar" />
+<meta property="og:site_name" content="Eclipse Plugins, Bundles and Products - Eclipse Marketplace" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://marketplace.eclipse.org/content/testng-eclipse/content.jar" />
+<meta property="og:title" content="TestNG for Eclipse" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://marketplace.eclipse.org/content/testng-eclipse/content.jar" />
+<meta name="twitter:title" content="TestNG for Eclipse" />
+  <title>TestNG for Eclipse | Eclipse Plugins, Bundles and Products - Eclipse Marketplace</title>
+  <link type="text/css" rel="stylesheet" href="https://marketplace.eclipse.org/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://marketplace.eclipse.org/sites/default/files/css/css_69iQNH9_V5jG-ypN2uK1-Lehh5o2pv6am8NNHLtqn_M.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://marketplace.eclipse.org/sites/default/files/css/css_FZq2WM1OgIJ6hboe7pCKCOVYEVSErRxKG3Ggc0-sZDI.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://marketplace.eclipse.org/sites/default/files/css/css_faj4ttnE7AjY4J82meJFGexQ7WbK-TGxsOjZGLZr9eE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://marketplace.eclipse.org/sites/default/files/css/css_CscqfNY10gCm6jnpBPwmDb5qkzcG3WQRtY7hxO6Pcug.css" media="screen" />
+  <script src="https://marketplace.eclipse.org/sites/default/files/js/js_bu9AdsQjsz_6Nfl6xjluK8orG6hwD03RvL6J-M-3f00.js"></script>
+<script src="https://marketplace.eclipse.org/sites/default/files/js/js_6wB7_RH3hNT_viZwOlvXgQ7bvciK-Mir9CVHAkENV64.js"></script>
+<script src="//www.google.com/jsapi"></script>
+<script src="https://marketplace.eclipse.org/sites/default/files/js/js_tCqe39n4L6DBBvWuJlOP9BFsaSYfOxRt5U5aM-3Th2c.js"></script>
+<script src="https://marketplace.eclipse.org/sites/default/files/js/js_5idTwlnz5DCqYVDi5zkl8R0EXPtur2n-xulamUAE1Lk.js"></script>
+<script src="https://marketplace.eclipse.org/sites/default/files/js/js_jVm1MN5GeEB7Rp4qNF2t_IPyLZKEHyV91Rp4p_4J-98.js"></script>
+<script src="https://marketplace.eclipse.org/sites/default/files/js/js_BTDAS4AwGleKz_K99wRoNul-23wCUj6IZZJu4i4ZERU.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"solstice_marketplace","theme_token":"55tG4ePfSTorH5Vy12pSxwP8vDrWBhd28TvLcp2fGHE","js":{"public:\/\/google_tag\/google_tag.script.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"\/\/www.google.com\/jsapi":1,"sites\/all\/modules\/contrib\/charts\/modules\/charts_google\/charts_google.js":1,"sites\/all\/libraries\/jquery-eclipsefdn-api\/dist\/jquery.eclipsefdn-igc.min.js":1,"sites\/all\/modules\/contrib\/field_group\/horizontal-tabs\/horizontal-tabs.js":1,"misc\/form.js":1,"misc\/autocomplete.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_collapse.js":1,"sites\/all\/modules\/contrib\/field_group\/field_group.js":1,"sites\/all\/themes\/solstice\/public\/js\/main.js":1,"sites\/all\/themes\/solstice\/_themes\/solstice_marketplace\/public\/js\/marketplace.js":1,"sites\/all\/modules\/custom\/marketplace\/marketplace_favorites\/dist\/marketplace.favorites.ig.min.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/autocomplete.js":1,"sites\/all\/modules\/custom\/marketplace\/marketplace_favorites\/js\/marketplace_favorites.who.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/field_group\/horizontal-tabs\/horizontal-tabs.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/field_collection_ajax\/css\/field-collection-ajax.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/apachesolr_autocomplete\/apachesolr_autocomplete.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.css":1,"sites\/all\/themes\/solstice\/public\/css\/marketplace.css":1}},"urlIsAjaxTrusted":{"\/content\/testng-eclipse\/content.jar":true},"eclipseApiUrl":"https:\/\/api.eclipse.org","marketplaceUrl":"https:\/\/marketplace.eclipse.org","eclipseAccountsUrl":"https:\/\/accounts.eclipse.org","field_group":{"htabs":"full","fieldset":"full","htab":"full"},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-1549 page-node-contentjar node-type-resource" >
+  <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WLCZXC" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager">Google Tag Manager</iframe></noscript>  <a class="sr-only" href="#content">Skip to main content</a>
+<header id="header-wrapper" role="banner" class="header-wrapper">
+      <div class="clearfix toolbar-container-wrapper">
+    <div class="container">
+      <div class="text-right toolbar-row row hidden-print">
+        <div class="col-md-24 row-toolbar-col">
+            <div id="row-toolbar" class="region region-toolbar text-right hidden-print solstice-region-element-count-1 row">
+  <div id="row-toolbar-col" class="col-md-24">
+    <section id="block-site-login-site-login-toolbar" class="block block-site-login block-region-toolbar site_login_toolbar block-site-login-toolbar clearfix">
+
+      
+  <div class="block-content">
+    <ul class="list-unstyled list-inline"><li weight="1"><a href="https://marketplace.eclipse.org/user/login?destination=node/1549/content.jar"><i class="fa fa-sign-in fa-fw"></i> Log in</a></li>
+<li weight="2"><a class="toolbar-manage-cookies dropdown-toggle"><i class="fa fa-wrench"></i> Manage Cookies</a></li>
+</ul>  </div>
+
+</section> <!-- /.block -->
+  </div>
+</div>
+          </div>
+      </div>
+    </div>
+  </div>
+    <div class="container">
+    <div id="header-row" class="row">
+      <div id="header_left" class="col-sm-8 hidden-xs">
+                  <a href="/"><img class="logo-eclipse-default img-responsive" width="210" typeof="foaf:Image" src="https://marketplace.eclipse.org/sites/default/files/logo_0_0.png" alt="" title="Eclipse Plugins, Bundles and Products - Eclipse Marketplace" /></a>        
+                  <a class="name navbar-brand element-invisible" href="/" title="Home">Eclipse Plugins, Bundles and Products - Eclipse Marketplace</a>
+              </div>
+              <div  id="main-menu-wrapper" class="col-sm-16">
+                              <div class="navbar float-sm-right yamm" id="main-menu">
+            <div id="navbar-collapse-1" class="navbar-collapse collapse">
+                                    <div class="region region-navigation solstice-region-element-count-1">
+    <section id="block-system-main-menu" class="block block-system block-menu block-region-navigation block-main-menu clearfix">
+
+      
+  <div class="block-content">
+    <ul class="menu nav navbar-nav"><li class="first leaf"><a href="/user" title="My Marketplace">My Marketplace</a></li>
+<li class="last leaf"><a href="/addcontent" title="Submit a listing to Eclipse Marketplace.">Add Content</a></li>
+<li class="dropdown eclipse-more hidden-xs">
+        <a data-toggle="dropdown" class="dropdown-toggle">More<b class="caret"></b></a>
+        <ul class="dropdown-menu"><li><div class="yamm-content"><div class="row"><ul class="col-sm-8 list-unstyled"><li><p><strong>Community</strong></p></li><li><a href="http://marketplace.eclipse.org">Marketplace</a></li><li><a href="http://events.eclipse.org">Events</a></li><li><a href="http://www.planeteclipse.org/">Planet Eclipse</a></li><li><a href="https://www.eclipse.org/community/eclipse_newsletter/">Newsletter</a></li><li><a href="https://www.youtube.com/user/EclipseFdn">Videos</a></li><li><a href="https://blogs.eclipse.org">Blogs</a></li></ul><ul class="col-sm-8 list-unstyled"><li><p><strong>Participate</strong></p></li><li><a href="https://bugs.eclipse.org/bugs/">Report a Bug</a></li><li><a href="https://www.eclipse.org/forums/">Forums</a></li><li><a href="https://www.eclipse.org/mail/">Mailing Lists</a></li><li><a href="https://wiki.eclipse.org/">Wiki</a></li><li><a href="https://wiki.eclipse.org/IRC">IRC</a></li><li><a href="https://www.eclipse.org/org/research/">Research</a></li></ul><ul class="col-sm-8 list-unstyled"><li><p><strong>Eclipse IDE</strong></p></li><li><a href="https://www.eclipse.org/downloads">Download</a></li><li><a href="https://www.eclipse.org/eclipseide">Learn More</a></li><li><a href="https://help.eclipse.org">Documentation</a></li><li><a href="https://www.eclipse.org/getting_started">Getting Started / Support</a></li><li><a href="https://www.eclipse.org/contribute/">How to Contribute</a></li><li><a href="https://www.eclipse.org/ide/">IDE and Tools</a></li><li><a href="https://www.eclipse.org/forums/index.php/f/89/">Newcomer Forum</a></li></ul></div></div></li></ul></li></ul>  </div>
+
+</section> <!-- /.block -->
+  </div>
+                              </div>
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span> <span class="icon-bar"></span> <span
+                  class="icon-bar"></span> <span class="icon-bar"></span>
+              </button>
+                <a href="/" class="navbar-brand visible-xs"><img class="logo-eclipse-default-mobile img-responsive" width="174" typeof="foaf:Image" src="https://marketplace.eclipse.org/sites/default/files/logo_0_0.png" alt="" title="Eclipse Plugins, Bundles and Products - Eclipse Marketplace" /></a>              </div>
+          </div>
+        </div>
+                </div>
+  </div>
+</header>
+
+  <section id="breadcrumb" class="default-breadcrumbs hidden-print">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-24 padding-left-30">
+          <ol class="breadcrumb"><li><a href="//www.eclipse.org">Home</a></li>
+<li><a href="/">Marketplace</a></li>
+<li><a href="/category/markets/tools">Tools (1339)</a></li>
+<li class="active">TestNG for Eclipse</li>
+</ol>        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<main role="main">
+  
+  <div id="main-page-content" class="margin-top-20 container">
+    <header role="banner" id="page-header">
+                </header>
+
+  <!-- /#page-header -->
+  <div id="main-content-row" class="row">
+    <section id="main-content" role="complementary" class="col-sm-18 col-sm-push-6 margin-bottom-20">
+                  
+      
+                <div class="region region-content-top solstice-region-element-count-1 margin-top-20 margin-bottom-20">
+    <section id="block-block-7" class="block block-block block-region-content-top block-7 clearfix">
+
+      
+  <div class="block-content">
+    <div class="alert alert-warning">
+<p>In an effort to better protect the Eclipse Marketplace users, we will begin to enforce the use of HTTPS for all contents linked by the Eclipse Marketplace on <strong>October 14th, 2022</strong>. The Eclipse Marketplace does not host the content of the provided solutions, it only provides links to them. We are actively working with owners of existing solutions with plain HTTP entries to fix them. Beginning <strong>December 15th</strong>, non-compliant solutions will be unpublished from the Eclipse Marketplace. You can follow this effort on <a href="https://gitlab.eclipse.org/eclipsefdn/security/public-tasks/-/issues/1" title="Enforce https one marketplace.eclipse.org">the tracking issue</a> for more details.</p>
+</div>
+  </div>
+
+</section> <!-- /.block -->
+  </div>
+      
+      
+              <a id="main-content"></a>
+        <div id="maint-content-area">
+          
+                      <h1  class="page-header"><div class="marketplace-badges-container"></div>TestNG for Eclipse</h1>
+                          
+                                
+          
+          
+            <div class="region region-content solstice-region-element-count-1">
+    <section id="block-system-main" class="block block-system block-region-content block-main clearfix">
+
+      
+  <div class="block-content">
+    <div id="node-1549" class="node node-resource listing-layout clearfix" about="/content/testng-eclipse" typeof="sioc:Item foaf:Document">
+  <div class="row padding-bottom">
+    <div class="col-sm-5 col-md-4">
+      <div class="listing-badge-container"><div class="col-md-24"><div class="row"><a href="/content/testng-eclipse" class="listing-image" style="background:url(https://marketplace.eclipse.org/sites/default/files/styles/ds_medium/public/default_images/default_2.png?itok=hA89-j9Y) no-repeat center;"><span class="sr-only">TestNG for Eclipse</span></a></div><div class="row padding-top-10 hidden-xs"><div class="col-xs-24 col-sm-12 text-center"><div class="row"><a href="/content/testng-eclipse/toggle_favorites?destination=node/1549/content.jar&amp;token=CKZn9MClj6CN9rvtqSzCsJVe-gq8vn3k-z5eOlDyZWM" class="favorite" _target="_parent" title="Add TestNG for Eclipse to your favorites." data-node-id="1549"><i class="fa fa-star-o"></i> 709</a></div></div><div class="col-xs-24 col-sm-12 text-center"><div class="row"><a href="/user/login?destination=node/1549#comment-form"><i class="fa fa-comment-o"></i> 75</a></div></div></div><div class="row text-center padding-top-10 hidden-xs"><div class="drag_installbutton drag_installbutton_v2"><a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1549" class="drag" title="Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client"><span class="btn btn-default"><i class="fa fa-download orange"></i> Install</span><div class="tooltip"><h3>Drag to Install!</h3>Drag to your running Eclipse<sup>*</sup> workspace. <br /><sup>*</sup>Requires Eclipse Marketplace Client</div></a></div></div><div class="row text-center padding-top-10"><a href="/metrics/successful_installs/last30days" title="Top 10 MPC Downloads"><img class="img-responsive" typeof="foaf:Image" src="/sites/all/themes/solstice/public/images/marketplace/top10.png" alt="" title="Top 10 MPC Downloads" /></a></div><div class="row listing-icons text-center col-light-padding padding-top-10 padding-bottom-15"><div class="row"><a href="/content/testng-eclipse/click" title="TestNG for Eclipse website." target="_blank"><i class="fa fa-home"></i></a><a href="https://www.eclipse.org/setups/marketplace/?id=1549" title="TestNG for Eclipse health status." target="_blank"><i class="fa fa-heartbeat"></i></a><a href="https://groups.google.com/group/testng-users/" title="TestNG for Eclipse support link." target="_blank"><i class="fa fa-question-circle"></i></a><a href="#maint-content-area" title="Update site url" id="btn-update-site" data-placement="bottom"><i class="fa fa-download"></i></a><div id="update-site-content" class="hide"><p> Add this URL to your Eclipse Installation to reach this solution's update site.</p><h4>2018-09 (4.9)<br/>Photon (4.8)<br/>Oxygen (4.7)<br/>Neon (4.6)<br/>Mars (4.5)<br/>Luna (4.4)<br/>Kepler (4.3)<br/>Juno (4.2, 3.8)<br/>Previous to Juno (<=4.1)</h4><pre class="block-box-classic">https://testng.org/testng-eclipse-update-site</pre>
+<i class="fa fa-linux orange" title="Linux/GTK"></i> <i class="fa fa-windows orange" title="Windows"></i> <i class="fa fa-apple orange" title="Mac"></i><hr/><a href="/content/testng-eclipse/help" title="How to add an update site." class="">Learn more...</a></div></div></div></div></div>    </div>
+
+    <div class="col-sm-19 col-md-20">
+            
+      
+      <span property="dc:title" content="TestNG for Eclipse" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="75" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+      
+      <div class="content">
+        <div aria-labelledby="modal-screenshot-label-0" id="modal-screenshot-0" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title"></h4>
+      </div>
+      <div class="modal-body"><img typeof="foaf:Image" class="img-responsive" src="https://marketplace.eclipse.org/sites/default/files/styles/ds_solution_screenshot/public/testng-eclipse.png?itok=sKccRH_D" alt="Screenshot 0" title="Screenshot 0" /></div>
+      <div class="modal-footer"></div>
+    </div>
+  </div>
+</div>
+<div class="field-group-htabs-wrapper  group-additional-details-tabs field-group-htabs"><h2 class="element-invisible">Details Group Tabs</h2><div class="horizontal-tabs-panes"><fieldset  class="collapsible  group-details field-group-htab panel panel-default form-wrapper" id="group-details">
+          <legend class="panel-heading">
+      <a href="#group-details-body" class="panel-title fieldset-legend" data-toggle="collapse">Details</a>
+    </legend>
+        <div class="panel-body panel-collapse collapse fade in" id="group-details-body">
+        <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>This plug-in lets you run your TestNG tests from Eclipse. You can run suites, groups or individual methods. Errors are reported in a separate tab that lets you jump to failing tests efficiently. The plug-in also contains several templates to create tests easily.</p></div></div></div><div class="field field-name-taxonomy-vocabulary-1 field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Categories: </div><ul class="links inline list-inline"><li class="taxonomy-term-reference-0"><a href="/category/categories/testing" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">Testing</a></li></ul></div><div class="field field-name-taxonomy-vocabulary-4 field-type-taxonomy-term-reference field-label-inline clearfix"><div class="field-label">Tags: </div><ul class="links inline list-inline"><li class="taxonomy-term-reference-0"><a href="/category/free-tagging/testng-junit-testing-unit-integration-functional-selenium" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">testng junit testing unit integration functional selenium</a></li></ul></div><fieldset  class="collapsible  group-additional-details field-group-fieldset panel panel-default form-wrapper" id="bootstrap-panel">
+          <legend class="panel-heading">
+      <a href="#bootstrap-panel-body" class="panel-title fieldset-legend" data-toggle="collapse">Additional Details</a>
+    </legend>
+        <div class="panel-body panel-collapse collapse fade in" id="bootstrap-panel-body">
+        <div class="field field-name-resource-sv-eclipse-version field-type-text field-label-inline clearfix"><div class="field-label">Eclipse Versions:&nbsp;</div><div class="field-items"><div class="field-item even">2018-09 (4.9), Photon (4.8), Oxygen (4.7), Neon (4.6), Mars (4.5), Luna (4.4), Kepler (4.3), Juno (4.2, 3.8), Previous to Juno (<=4.1)</div></div></div><div class="field field-name-resource-sv-os field-type-text field-label-inline clearfix"><div class="field-label">Platform Support:&nbsp;</div><div class="field-items"><div class="field-item even">Windows, Mac, Linux/GTK</div></div></div><div class="field field-name-field-companyname field-type-text field-label-inline clearfix"><div class="field-label">Organization Name:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/search/content/%22C%C3%A9dric%20Beust%22">Cédric Beust</a></div></div></div><div class="field field-name-field-status field-type-list-text field-label-inline clearfix"><div class="field-label">Development Status:&nbsp;</div><div class="field-items"><div class="field-item even">Production/Stable</div></div></div><div class="field field-name-shared-date-created field-type-text field-label-inline clearfix"><div class="field-label">Date Created:&nbsp;</div><div class="field-items"><div class="field-item even">Thu, 2010-06-24 09:51</div></div></div><div class="field field-name-field-licensetype field-type-list-text field-label-inline clearfix"><div class="field-label">License:&nbsp;</div><div class="field-items"><div class="field-item even">Apache 2.0</div></div></div><div class="field field-name-shared-date-updated field-type-text field-label-inline clearfix"><div class="field-label">Date Updated:&nbsp;</div><div class="field-items"><div class="field-item even">Fri, 2021-09-10 13:39</div></div></div><div class="field field-name-shared-submitted-by field-type-text field-label-inline clearfix"><div class="field-label">Submitted by:&nbsp;</div><div class="field-items"><div class="field-item even"><a href="/user/cbeust6c0/listings" title="Cedric Beust">Cedric Beust</a></div></div></div>  </div>
+</fieldset>
+  </div>
+</fieldset>
+<fieldset  class="collapsible  group-screenshots field-group-htab panel panel-default form-wrapper" id="group-screenshots">
+          <legend class="panel-heading">
+      <a href="#group-screenshots-body" class="panel-title fieldset-legend" data-toggle="collapse">Screenshots</a>
+    </legend>
+        <div class="panel-body panel-collapse collapse fade in" id="group-screenshots-body">
+        <div class="field field-name-field-screenshot field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/%23" data-toggle="modal" data-target="#modal-screenshot-0"><img typeof="foaf:Image" class="img-responsive" src="https://marketplace.eclipse.org/sites/default/files/styles/ds_solution_screenshot/public/testng-eclipse.png?itok=sKccRH_D" alt="Screenshot 0" title="Screenshot 0" /></a></div></div></div>  </div>
+</fieldset>
+<fieldset  class="collapsible  group-metrics-tab field-group-htab panel panel-default form-wrapper" id="group-metrics-tab">
+          <legend class="panel-heading">
+      <a href="#group-metrics-tab-body" class="panel-title fieldset-legend" data-toggle="collapse">Metrics</a>
+    </legend>
+        <div class="panel-body panel-collapse collapse fade in" id="group-metrics-tab-body">
+        <div class="text-center clearfix"><div  class="charts-google chart" data-chart="{&quot;visualization&quot;:&quot;ColumnChart&quot;,&quot;options&quot;:{&quot;title&quot;:&quot;Marketplace Client Install&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:20},&quot;titlePosition&quot;:&quot;out&quot;,&quot;colors&quot;:[&quot;#2f7ed8&quot;,&quot;#0d233a&quot;,&quot;#8bbc21&quot;,&quot;#910000&quot;,&quot;#1aadce&quot;,&quot;#492970&quot;,&quot;#f28f43&quot;,&quot;#77a1e5&quot;,&quot;#c42525&quot;,&quot;#a6c96a&quot;],&quot;fontName&quot;:&quot;Arial&quot;,&quot;fontSize&quot;:12,&quot;backgroundColor&quot;:{&quot;fill&quot;:&quot;transparent&quot;},&quot;isStacked&quot;:false,&quot;tooltip&quot;:{&quot;trigger&quot;:&quot;focus&quot;,&quot;isHtml&quot;:false},&quot;pieSliceText&quot;:&quot;none&quot;,&quot;legend&quot;:{&quot;position&quot;:&quot;none&quot;,&quot;alignment&quot;:&quot;center&quot;,&quot;titleTextStyle&quot;:{&quot;bold&quot;:true,&quot;italic&quot;:false},&quot;textStyle&quot;:{&quot;bold&quot;:false,&quot;italic&quot;:false}},&quot;interpolateNulls&quot;:true,&quot;animation&quot;:{&quot;duration&quot;:10000,&quot;easing&quot;:&quot;out&quot;},&quot;hAxis&quot;:{&quot;title&quot;:&quot;&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:12},&quot;textStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false},&quot;gridlines&quot;:{&quot;color&quot;:&quot;#ccc&quot;},&quot;baselineColor&quot;:&quot;#ccc&quot;,&quot;minorGridlines&quot;:{&quot;color&quot;:&quot;#e0e0e0&quot;},&quot;viewWindow&quot;:[]},&quot;vAxes&quot;:[{&quot;title&quot;:&quot;&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:12},&quot;textStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false},&quot;gridlines&quot;:{&quot;color&quot;:&quot;#ccc&quot;},&quot;baselineColor&quot;:&quot;#ccc&quot;,&quot;minorGridlines&quot;:{&quot;color&quot;:&quot;#e0e0e0&quot;},&quot;viewWindow&quot;:[],&quot;format&quot;:&quot;#&quot;}],&quot;series&quot;:[{&quot;color&quot;:&quot;#F7941E&quot;,&quot;pointSize&quot;:3,&quot;visibleInLegend&quot;:true,&quot;pieSliceText&quot;:&quot;none&quot;,&quot;_format&quot;:{&quot;format&quot;:&quot;#&quot;}}]},&quot;data&quot;:[[&quot;x&quot;,&quot;Installs&quot;],[&quot;11\/21&quot;,20256],[&quot;12\/21&quot;,23896],[&quot;1\/22&quot;,23288],[&quot;2\/22&quot;,24119],[&quot;3\/22&quot;,30663],[&quot;4\/22&quot;,27369],[&quot;5\/22&quot;,29387],[&quot;6\/22&quot;,29158],[&quot;7\/22&quot;,29797],[&quot;8\/22&quot;,28280],[&quot;9\/22&quot;,29883],[&quot;10\/22&quot;,19817]]}" id="google-chart-render"></div>
+<div  class="charts-google chart" data-chart="{&quot;visualization&quot;:&quot;ColumnChart&quot;,&quot;options&quot;:{&quot;title&quot;:&quot;Clickthroughs&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:20},&quot;titlePosition&quot;:&quot;out&quot;,&quot;colors&quot;:[&quot;#2f7ed8&quot;,&quot;#0d233a&quot;,&quot;#8bbc21&quot;,&quot;#910000&quot;,&quot;#1aadce&quot;,&quot;#492970&quot;,&quot;#f28f43&quot;,&quot;#77a1e5&quot;,&quot;#c42525&quot;,&quot;#a6c96a&quot;],&quot;fontName&quot;:&quot;Arial&quot;,&quot;fontSize&quot;:12,&quot;backgroundColor&quot;:{&quot;fill&quot;:&quot;transparent&quot;},&quot;isStacked&quot;:false,&quot;tooltip&quot;:{&quot;trigger&quot;:&quot;focus&quot;,&quot;isHtml&quot;:false},&quot;pieSliceText&quot;:&quot;none&quot;,&quot;legend&quot;:{&quot;position&quot;:&quot;none&quot;,&quot;alignment&quot;:&quot;center&quot;,&quot;titleTextStyle&quot;:{&quot;bold&quot;:true,&quot;italic&quot;:false},&quot;textStyle&quot;:{&quot;bold&quot;:false,&quot;italic&quot;:false}},&quot;interpolateNulls&quot;:true,&quot;animation&quot;:{&quot;duration&quot;:10000,&quot;easing&quot;:&quot;out&quot;},&quot;hAxis&quot;:{&quot;title&quot;:&quot;&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:12},&quot;textStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false},&quot;gridlines&quot;:{&quot;color&quot;:&quot;#ccc&quot;},&quot;baselineColor&quot;:&quot;#ccc&quot;,&quot;minorGridlines&quot;:{&quot;color&quot;:&quot;#e0e0e0&quot;},&quot;viewWindow&quot;:[]},&quot;vAxes&quot;:[{&quot;title&quot;:&quot;&quot;,&quot;titleTextStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false,&quot;fontSize&quot;:12},&quot;textStyle&quot;:{&quot;color&quot;:&quot;#000&quot;,&quot;bold&quot;:false,&quot;italic&quot;:false},&quot;gridlines&quot;:{&quot;color&quot;:&quot;#ccc&quot;},&quot;baselineColor&quot;:&quot;#ccc&quot;,&quot;minorGridlines&quot;:{&quot;color&quot;:&quot;#e0e0e0&quot;},&quot;viewWindow&quot;:[],&quot;format&quot;:&quot;#&quot;}],&quot;series&quot;:[{&quot;color&quot;:&quot;#F7941E&quot;,&quot;pointSize&quot;:3,&quot;visibleInLegend&quot;:true,&quot;pieSliceText&quot;:&quot;none&quot;,&quot;_format&quot;:{&quot;format&quot;:&quot;#&quot;}}]},&quot;data&quot;:[[&quot;x&quot;,&quot;Clicks&quot;],[&quot;11\/21&quot;,53],[&quot;12\/21&quot;,66],[&quot;1\/22&quot;,43],[&quot;2\/22&quot;,37],[&quot;3\/22&quot;,38],[&quot;4\/22&quot;,38],[&quot;5\/22&quot;,52],[&quot;6\/22&quot;,39],[&quot;7\/22&quot;,61],[&quot;8\/22&quot;,42],[&quot;9\/22&quot;,33],[&quot;10\/22&quot;,39]]}" id="google-chart-render--2"></div>
+</div><table class="table table-hover table-striped table-bordered sticky-enabled">
+ <thead><tr><th>Date</th><th>Ranking</th><th>Installs</th><th>Clickthroughs</th> </tr></thead>
+<tbody>
+ <tr><td>October 2022</td><td>2/790</td><td>19817 (7.02%)</td><td>39</td> </tr>
+ <tr><td>September 2022</td><td>2/812</td><td>29883 (7.55%)</td><td>33</td> </tr>
+ <tr><td>August 2022</td><td>2/808</td><td>28280 (7.91%)</td><td>42</td> </tr>
+ <tr><td>July 2022</td><td>2/816</td><td>29797 (8.17%)</td><td>61</td> </tr>
+ <tr><td>June 2022</td><td>2/810</td><td>29158 (7.34%)</td><td>39</td> </tr>
+ <tr><td>May 2022</td><td>2/810</td><td>29387 (6.7%)</td><td>52</td> </tr>
+ <tr><td>April 2022</td><td>2/817</td><td>27369 (6.51%)</td><td>38</td> </tr>
+ <tr><td>March 2022</td><td>3/820</td><td>30663 (6.5%)</td><td>38</td> </tr>
+ <tr><td>February 2022</td><td>3/819</td><td>24119 (6.37%)</td><td>37</td> </tr>
+ <tr><td>January 2022</td><td>3/817</td><td>23288 (5.93%)</td><td>43</td> </tr>
+ <tr><td>December 2021</td><td>2/811</td><td>23896 (6.1%)</td><td>66</td> </tr>
+ <tr><td>November 2021</td><td>4/822</td><td>20256 (4.83%)</td><td>53</td> </tr>
+</tbody>
+</table>
+<a href="/metrics/successful_installs/alltime" class="button">View Data for all Listings</a>  </div>
+</fieldset>
+<fieldset  class="collapsible  group-errors-tabs field-group-htab panel panel-default form-wrapper" id="bootstrap-panel--2">
+          <legend class="panel-heading">
+      <a href="#bootstrap-panel-2-body" class="panel-title fieldset-legend" data-toggle="collapse">Errors</a>
+    </legend>
+        <div class="panel-body panel-collapse collapse fade in" id="bootstrap-panel-2-body">
+        <p>Unsuccessful Installs in the last 7 Days: 39</p>
+<table class="table table-hover table-striped table-bordered sticky-enabled">
+ <thead><tr><th>Count</th><th>Error Message</th> </tr></thead>
+<tbody>
+ <tr><td>19</td><td><span title="Cannot continue the operation.  There is another install operation in progress."><a href="/content/error/report/5562691">Cannot continue the operation.  There is another install operation in progress.</a></span></td> </tr>
+ <tr><td>8</td><td><span title="Cannot complete the install because one or more required items could not be found.
+  Software being installed: TestNG M2E (Maven) Integration (Optional) 7.4.0.202106051955 (org.testng.eclipse.maven.feature.feature.group 7.4.0.202106051955)
+  Missing requirement: TestNG Eclipse Support 7.1.0.202003090500 (org.testng.eclipse 7.1.0.202003090500) requires &#039;bundle org.eclipse.jdt.launching 3.10.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.1.1.202003100345 (org.testng.eclipse 7.1.1.202003100345) requires &#039;bundle org.eclipse.jdt.launching 3.10.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.2.0.202004281604 (org.testng.eclipse 7.2.0.202004281604) requires &#039;bundle org.eclipse.jdt.launching 3.10.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.2.0.202005051752 (org.testng.eclipse 7.2.0.202005051752) requires &#039;bundle org.eclipse.jdt.launching 3.10.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.3.0.202008060412 (org.testng.eclipse 7.3.0.202008060412) requires &#039;bundle org.eclipse.jdt.launching 3.10.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.4.0.202105021622 (org.testng.eclipse 7.4.0.202105021622) requires &#039;bundle org.eclipse.jdt.launching 3.10.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.4.0.202106051955 (org.testng.eclipse 7.4.0.202106051955) requires &#039;bundle org.eclipse.jdt.launching 3.10.0&#039; but it could not be found
+  Cannot satisfy dependency:
+    From: TestNG 7.1.0.202003090500 (org.testng.eclipse.feature.group 7.1.0.202003090500)
+    To: org.testng.eclipse [7.1.0.202003090500]
+  Cannot satisfy dependency:
+    From: TestNG 7.1.1.202003100345 (org.testng.eclipse.feature.group 7.1.1.202003100345)
+    To: org.testng.eclipse [7.1.1.202003100345]
+  Cannot satisfy dependency:
+    From: TestNG 7.2.0.202004281604 (org.testng.eclipse.feature.group 7.2.0.202004281604)
+    To: org.testng.eclipse [7.2.0.202004281604]
+  Cannot satisfy dependency:
+    From: TestNG 7.2.0.202005051752 (org.testng.eclipse.feature.group 7.2.0.202005051752)
+    To: org.testng.eclipse [7.2.0.202005051752]
+  Cannot satisfy dependency:
+    From: TestNG 7.3.0.202008060412 (org.testng.eclipse.feature.group 7.3.0.202008060412)
+    To: org.testng.eclipse [7.3.0.202008060412]
+  Cannot satisfy dependency:
+    From: TestNG 7.4.0.202105021622 (org.testng.eclipse.feature.group 7.4.0.202105021622)
+    To: org.testng.eclipse [7.4.0.202105021622]
+  Cannot satisfy dependency:
+    From: TestNG 7.4.0.202106051955 (org.testng.eclipse.feature.group 7.4.0.202106051955)
+    To: org.testng.eclipse [7.4.0.202106051955]
+  Cannot satisfy dependency:
+    From: TestNG M2E (Maven) Integration (Optional) 7.4.0.202106051955 (org.testng.eclipse.maven.feature.feature.group 7.4.0.202106051955)
+    To: org.testng.eclipse.feature.group [7.1.0,8.0.0)"><a href="/content/error/report/5562722">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
+ <tr><td>4</td><td><span title="Cannot complete the install because of a conflicting dependency.
+  Software being installed: TestNG M2E (Maven) Integration (Optional) 7.4.0.202106051955 (org.testng.eclipse.maven.feature.feature.group 7.4.0.202106051955)
+  Software currently installed: m2e - slf4j over logback logging (Optional) 1.4.0.20130601-0317 (org.eclipse.m2e.logback.feature.feature.group 1.4.0.20130601-0317)
+  Only one of the following can be installed at once: 
+    Maven Integration for Eclipse 1.0.0.20110607-2117 (org.eclipse.m2e.core 1.0.0.20110607-2117)
+    Maven Integration for Eclipse 1.0.200.20111228-1245 (org.eclipse.m2e.core 1.0.200.20111228-1245)
+    Maven Integration for Eclipse 1.0.100.20110804-1717 (org.eclipse.m2e.core 1.0.100.20110804-1717)
+    Maven Integration for Eclipse 1.8.2.20171007-0217 (org.eclipse.m2e.core 1.8.2.20171007-0217)
+    Maven Integration for Eclipse 1.8.0.20170516-2043 (org.eclipse.m2e.core 1.8.0.20170516-2043)
+    Maven Integration for Eclipse 1.3.1.20130219-1424 (org.eclipse.m2e.core 1.3.1.20130219-1424)
+    Maven Integration for Eclipse 1.4.0.20130601-0317 (org.eclipse.m2e.core 1.4.0.20130601-0317)
+    Maven Integration for Eclipse 1.5.0.20140606-0033 (org.eclipse.m2e.core 1.5.0.20140606-0033)
+    Maven Integration for Eclipse 1.5.1.20150109-1820 (org.eclipse.m2e.core 1.5.1.20150109-1820)
+    Maven Integration for Eclipse 1.1.0.20120530-0009 (org.eclipse.m2e.core 1.1.0.20120530-0009)
+    Maven Integration for Eclipse 1.8.3.20180227-2137 (org.eclipse.m2e.core 1.8.3.20180227-2137)
+    Maven Integration for Eclipse 1.2.0.20120903-1050 (org.eclipse.m2e.core 1.2.0.20120903-1050)
+    M2E Maven Integration for Eclipse Core 1.18.4.20220208-0831 (org.eclipse.m2e.core 1.18.4.20220208-0831)
+    Maven Integration for Eclipse 1.3.0.20130129-0926 (org.eclipse.m2e.core 1.3.0.20130129-0926)
+  Cannot satisfy dependency:
+    From: Maven Integration for Eclipse 1.4.0.20130601-0317 (org.eclipse.m2e.core.ui 1.4.0.20130601-0317)
+    To: bundle org.eclipse.m2e.core [1.4.0,1.5.0)
+  Cannot satisfy dependency:
+    From: m2e logback appender 1.4.0.20130601-0317 (org.eclipse.m2e.logback.appender 1.4.0.20130601-0317)
+    To: bundle org.eclipse.m2e.core.ui [1.4.0,1.5.0)
+  Cannot satisfy dependency:
+    From: m2e - slf4j over logback logging (Optional) 1.4.0.20130601-0317 (org.eclipse.m2e.logback.feature.feature.group 1.4.0.20130601-0317)
+    To: org.eclipse.m2e.logback.appender [1.4.0.20130601-0317]
+  Cannot satisfy dependency:
+    From: TestNG M2E (Maven) Integration 7.4.0.202106051955 (org.testng.eclipse.maven 7.4.0.202106051955)
+    To: bundle org.eclipse.m2e.core 1.5.0
+  Cannot satisfy dependency:
+    From: TestNG M2E (Maven) Integration (Optional) 7.4.0.202106051955 (org.testng.eclipse.maven.feature.feature.group 7.4.0.202106051955)
+    To: org.testng.eclipse.maven [7.4.0.202106051955]"><a href="/content/error/report/5563216">Cannot complete the install because of a conflicting dependency....</a></span></td> </tr>
+ <tr><td>3</td><td><span title="Cannot complete the install because of a conflicting dependency.
+  Software being installed: TestNG 7.4.0.202106051955 (org.testng.eclipse.feature.group 7.4.0.202106051955)
+  Software currently installed: Eclipse IDE for Java EE Developers 1.5.2.20130211-1820 (epp.package.jee 1.5.2.20130211-1820)
+  Only one of the following can be installed at once: 
+    Core Runtime 3.10.0.v20140318-2214 (org.eclipse.core.runtime 3.10.0.v20140318-2214)
+    Core Runtime 3.8.0.v20120912-155025 (org.eclipse.core.runtime 3.8.0.v20120912-155025)
+    Core Runtime 3.13.0.v20170207-1030 (org.eclipse.core.runtime 3.13.0.v20170207-1030)
+    Core Runtime 3.8.0.v20120521-2346 (org.eclipse.core.runtime 3.8.0.v20120521-2346)
+    Core Runtime 3.7.0.v20110110 (org.eclipse.core.runtime 3.7.0.v20110110)
+    Core Runtime 3.24.100.v20220211-2001 (org.eclipse.core.runtime 3.24.100.v20220211-2001)
+  Cannot satisfy dependency:
+    From: Eclipse IDE for Java EE Developers 1.5.2.20130211-1820 (epp.package.jee 1.5.2.20130211-1820)
+    To: org.eclipse.epp.package.jee.feature.feature.group [1.5.2.20130211-1820]
+  Cannot satisfy dependency:
+    From: Eclipse e4 Rich Client Platform 1.1.2.v20130130-191718-91FUvGP7GIX2Kgz-z-gvjMvXV1NS (org.eclipse.e4.rcp.feature.group 1.1.2.v20130130-191718-91FUvGP7GIX2Kgz-z-gvjMvXV1NS)
+    To: org.eclipse.core.runtime [3.8.0.v20120912-155025]
+  Cannot satisfy dependency:
+    From: Java EE IDE Feature 1.5.2.20130211-1820 (org.eclipse.epp.package.jee.feature.feature.group 1.5.2.20130211-1820)
+    To: org.eclipse.platform.feature.group [4.2.1.v20130118-173121-9MF7GHYdG0B5kx4E_SkfZV-1mNjVATf67ZAb7]
+  Cannot satisfy dependency:
+    From: Java Development Tools Launching Support 3.19.500.v20220125-2008 (org.eclipse.jdt.launching 3.19.500.v20220125-2008)
+    To: bundle org.eclipse.core.runtime [3.11.0,4.0.0)
+  Cannot satisfy dependency:
+    From: Eclipse Platform 4.2.1.v20130118-173121-9MF7GHYdG0B5kx4E_SkfZV-1mNjVATf67ZAb7 (org.eclipse.platform.feature.group 4.2.1.v20130118-173121-9MF7GHYdG0B5kx4E_SkfZV-1mNjVATf67ZAb7)
+    To: org.eclipse.rcp.feature.group [4.2.2.v20130129-152330-7IARAABrMQkGSvMgQnUlz-DQz00h]
+  Cannot satisfy dependency:
+    From: Eclipse RCP 4.2.2.v20130129-152330-7IARAABrMQkGSvMgQnUlz-DQz00h (org.eclipse.rcp.feature.group 4.2.2.v20130129-152330-7IARAABrMQkGSvMgQnUlz-DQz00h)
+    To: org.eclipse.e4.rcp.feature.group [1.1.2.v20130130-191718-91FUvGP7GIX2Kgz-z-gvjMvXV1NS]
+  Cannot satisfy dependency:
+    From: TestNG Eclipse Support 7.4.0.202106051955 (org.testng.eclipse 7.4.0.202106051955)
+    To: bundle org.eclipse.jdt.launching 3.10.0
+  Cannot satisfy dependency:
+    From: TestNG 7.4.0.202106051955 (org.testng.eclipse.feature.group 7.4.0.202106051955)
+    To: org.testng.eclipse [7.4.0.202106051955]"><a href="/content/error/report/5563219">Cannot complete the install because of a conflicting dependency....</a></span></td> </tr>
+ <tr><td>2</td><td><span title="Cannot complete the install because one or more required items could not be found.
+  Software being installed: TestNG 7.4.0.202106051955 (org.testng.eclipse.feature.group 7.4.0.202106051955)
+  Missing requirement: TestNG Eclipse Support 7.4.0.202106051955 (org.testng.eclipse 7.4.0.202106051955) requires &#039;bundle org.eclipse.jdt.launching 3.10.0&#039; but it could not be found
+  Cannot satisfy dependency:
+    From: TestNG 7.4.0.202106051955 (org.testng.eclipse.feature.group 7.4.0.202106051955)
+    To: org.testng.eclipse [7.4.0.202106051955]"><a href="/content/error/report/5562759">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
+ <tr><td>2</td><td><span title="Your original request has been modified.
+  &quot;TestNG&quot; is already installed, so an update will be performed instead.
+Cannot complete the install because one or more required items could not be found.
+  Software being installed: TestNG M2E (Maven) Integration (Optional) 7.4.0.202106051955 (org.testng.eclipse.maven.feature.feature.group 7.4.0.202106051955)
+  Missing requirement: TestNG Eclipse Support 7.1.0.202003090500 (org.testng.eclipse 7.1.0.202003090500) requires &#039;bundle org.eclipse.jdt.launching 3.10.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.1.1.202003100345 (org.testng.eclipse 7.1.1.202003100345) requires &#039;bundle org.eclipse.jdt.launching 3.10.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.2.0.202004281604 (org.testng.eclipse 7.2.0.202004281604) requires &#039;bundle org.eclipse.jdt.launching 3.10.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.2.0.202005051752 (org.testng.eclipse 7.2.0.202005051752) requires &#039;bundle org.eclipse.jdt.launching 3.10.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.3.0.202008060412 (org.testng.eclipse 7.3.0.202008060412) requires &#039;bundle org.eclipse.jdt.launching 3.10.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.4.0.202105021622 (org.testng.eclipse 7.4.0.202105021622) requires &#039;bundle org.eclipse.jdt.launching 3.10.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.4.0.202106051955 (org.testng.eclipse 7.4.0.202106051955) requires &#039;bundle org.eclipse.jdt.launching 3.10.0&#039; but it could not be found
+  Cannot satisfy dependency:
+    From: TestNG 7.1.0.202003090500 (org.testng.eclipse.feature.group 7.1.0.202003090500)
+    To: org.testng.eclipse [7.1.0.202003090500]
+  Cannot satisfy dependency:
+    From: TestNG 7.1.1.202003100345 (org.testng.eclipse.feature.group 7.1.1.202003100345)
+    To: org.testng.eclipse [7.1.1.202003100345]
+  Cannot satisfy dependency:
+    From: TestNG 7.2.0.202004281604 (org.testng.eclipse.feature.group 7.2.0.202004281604)
+    To: org.testng.eclipse [7.2.0.202004281604]
+  Cannot satisfy dependency:
+    From: TestNG 7.2.0.202005051752 (org.testng.eclipse.feature.group 7.2.0.202005051752)
+    To: org.testng.eclipse [7.2.0.202005051752]
+  Cannot satisfy dependency:
+    From: TestNG 7.3.0.202008060412 (org.testng.eclipse.feature.group 7.3.0.202008060412)
+    To: org.testng.eclipse [7.3.0.202008060412]
+  Cannot satisfy dependency:
+    From: TestNG 7.4.0.202105021622 (org.testng.eclipse.feature.group 7.4.0.202105021622)
+    To: org.testng.eclipse [7.4.0.202105021622]
+  Cannot satisfy dependency:
+    From: TestNG 7.4.0.202106051955 (org.testng.eclipse.feature.group 7.4.0.202106051955)
+    To: org.testng.eclipse [7.4.0.202106051955]
+  Cannot satisfy dependency:
+    From: TestNG M2E (Maven) Integration (Optional) 7.4.0.202106051955 (org.testng.eclipse.maven.feature.feature.group 7.4.0.202106051955)
+    To: org.testng.eclipse.feature.group [7.1.0,8.0.0)"><a href="/content/error/report/5563502">Your original request has been modified....</a></span></td> </tr>
+ <tr><td>1</td><td><span title="Cannot complete the install because one or more required items could not be found.
+  Software being installed: TestNG M2E (Maven) Integration (Optional) 7.4.0.202106051955 (org.testng.eclipse.maven.feature.feature.group 7.4.0.202106051955)
+  Missing requirement: TestNG Eclipse Support 7.1.0.202003090500 (org.testng.eclipse 7.1.0.202003090500) requires &#039;osgi.bundle; org.eclipse.jdt.debug.ui 0.0.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.1.1.202003100345 (org.testng.eclipse 7.1.1.202003100345) requires &#039;osgi.bundle; org.eclipse.jdt.debug.ui 0.0.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.2.0.202004281604 (org.testng.eclipse 7.2.0.202004281604) requires &#039;osgi.bundle; org.eclipse.jdt.debug.ui 0.0.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.2.0.202005051752 (org.testng.eclipse 7.2.0.202005051752) requires &#039;osgi.bundle; org.eclipse.jdt.debug.ui 0.0.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.3.0.202008060412 (org.testng.eclipse 7.3.0.202008060412) requires &#039;osgi.bundle; org.eclipse.jdt.debug.ui 0.0.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.4.0.202105021622 (org.testng.eclipse 7.4.0.202105021622) requires &#039;osgi.bundle; org.eclipse.jdt.debug.ui 0.0.0&#039; but it could not be found
+  Missing requirement: TestNG Eclipse Support 7.4.0.202106051955 (org.testng.eclipse 7.4.0.202106051955) requires &#039;osgi.bundle; org.eclipse.jdt.debug.ui 0.0.0&#039; but it could not be found
+  Cannot satisfy dependency:
+    From: TestNG 7.1.0.202003090500 (org.testng.eclipse.feature.group 7.1.0.202003090500)
+    To: org.eclipse.equinox.p2.iu; org.testng.eclipse [7.1.0.202003090500,7.1.0.202003090500]
+  Cannot satisfy dependency:
+    From: TestNG 7.1.1.202003100345 (org.testng.eclipse.feature.group 7.1.1.202003100345)
+    To: org.eclipse.equinox.p2.iu; org.testng.eclipse [7.1.1.202003100345,7.1.1.202003100345]
+  Cannot satisfy dependency:
+    From: TestNG 7.2.0.202004281604 (org.testng.eclipse.feature.group 7.2.0.202004281604)
+    To: org.eclipse.equinox.p2.iu; org.testng.eclipse [7.2.0.202004281604,7.2.0.202004281604]
+  Cannot satisfy dependency:
+    From: TestNG 7.2.0.202005051752 (org.testng.eclipse.feature.group 7.2.0.202005051752)
+    To: org.eclipse.equinox.p2.iu; org.testng.eclipse [7.2.0.202005051752,7.2.0.202005051752]
+  Cannot satisfy dependency:
+    From: TestNG 7.3.0.202008060412 (org.testng.eclipse.feature.group 7.3.0.202008060412)
+    To: org.eclipse.equinox.p2.iu; org.testng.eclipse [7.3.0.202008060412,7.3.0.202008060412]
+  Cannot satisfy dependency:
+    From: TestNG 7.4.0.202105021622 (org.testng.eclipse.feature.group 7.4.0.202105021622)
+    To: org.eclipse.equinox.p2.iu; org.testng.eclipse [7.4.0.202105021622,7.4.0.202105021622]
+  Cannot satisfy dependency:
+    From: TestNG 7.4.0.202106051955 (org.testng.eclipse.feature.group 7.4.0.202106051955)
+    To: org.eclipse.equinox.p2.iu; org.testng.eclipse [7.4.0.202106051955,7.4.0.202106051955]
+  Cannot satisfy dependency:
+    From: TestNG M2E (Maven) Integration (Optional) 7.4.0.202106051955 (org.testng.eclipse.maven.feature.feature.group 7.4.0.202106051955)
+    To: org.eclipse.equinox.p2.iu; org.testng.eclipse.feature.group [7.1.0,8.0.0)"><a href="/content/error/report/5562834">Cannot complete the install because one or more required items could not be found....</a></span></td> </tr>
+</tbody>
+</table>
+
+<a href="/unsuccessful/installs/1549/error_report.csv" class="btn btn-primary btn-sm float-right">Download last 500 errors (CSV)</a>  </div>
+</fieldset>
+<fieldset  class="collapsible  group-external-install-button field-group-htab panel panel-default form-wrapper" id="group-external-install-button">
+          <legend class="panel-heading">
+      <a href="#group-external-install-button-body" class="panel-title fieldset-legend" data-toggle="collapse">External Install Button</a>
+    </legend>
+        <div class="panel-body panel-collapse collapse fade in" id="group-external-install-button-body">
+        <h3>Marketplace Drag to Install button</h3><p>By adding the following code below to your website you will be able to add an install button for TestNG for Eclipse.<br/><br/>HTML Code:<br/><div class="form-textarea-wrapper"><textarea cols="80" rows="5" class="form-textarea">&lt;a href=&quot;http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1549&quot; class=&quot;drag&quot; title=&quot;Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client&quot;&gt;&lt;img style=&quot;width:80px;&quot; typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/all/themes/solstice/public/images/marketplace/btn-install.svg&quot; alt=&quot;Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client&quot; /&gt;&lt;/a&gt;</textarea></div><p><br/>Markdown Syntax:</p><div class="form-textarea-wrapper"><textarea cols="80" rows="5" class="form-textarea">[![Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client](https://marketplace.eclipse.org/sites/all/themes/solstice/public/images/marketplace/btn-install.svg)](http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1549 &quot;Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client&quot;)</textarea></div><br/><br/>Output: <a href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1549" class="drag" title="Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client"><img style="width:80px;" typeof="foaf:Image" class="img-responsive" src="https://marketplace.eclipse.org/sites/all/themes/solstice/public/images/marketplace/btn-install.svg" alt="Drag to your running Eclipse* workspace. *Requires Eclipse Marketplace Client" /></a>  </div>
+</fieldset>
+</div></div><div class="field field-name-field-installs-last-update field-type-datestamp field-label-hidden"><div class="field-items"><div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-10-24T06:16:05-04:00">Monday, October 24, 2022 - 06:16</span></div></div></div>      </div>
+            <div id="comments" class="comment-wrapper hidden-print">
+          <h2  class="page-header title padding-top-25">
+      <i class="fa fa-comments orange"></i> Reviews      <a href="/user/login?destination=content/testng-eclipse/content.jar#comment-form" class="btn btn-primary btn-sm float-right">Sign in to post reviews</a>    </h2>
+
+      
+  <a id="comment-8039"></a>
+<div class="row comment odd clearfix" about="/comment/8039#comment-8039" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/oguzhank" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/107e580dc225e054c3492fb1565ea912.jpg?d=mm&amp;s=185&amp;r=G" alt="oguzhank&#039;s picture" title="oguzhank&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/8039#comment-8039" class="permalink" rel="bookmark">TestNG plugin does not works</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2022-07-20T03:15:43-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/oguzhank/listings" title="Oguzhan K">Oguzhan K</a> on Wed, 2022-07-20 03:15</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>TestNG plugin is installed in Eclipse, yesterday Eclipse got some updates and ok confirmed the updates then TestNG stopped working. I uninstalled and installed it again but still not working i can't see it in run configurations.</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-7787"></a>
+<div class="row comment even clearfix" about="/comment/7787#comment-7787" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/drugwired" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/8ca92ab35a1dd033ae1da3e672ba3706.jpg?d=mm&amp;s=185&amp;r=G" alt="Drugwired&#039;s picture" title="Drugwired&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7787#comment-7787" class="permalink" rel="bookmark">Access Issue for beust.com</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-10-17T08:50:13-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/drugwired/listings" title="Karthik Drugwired">Karthik Drugwired</a> on Sun, 2021-10-17 08:50</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi Everyone this is been a issue since Exlipse 2021-06, seems there is some kind of acess restricoin we can not browse this url "beust.com/eclipse/"gets to "404 - Not found (beust.com)"</p>
+<p>but there is a alrernate .</p>
+<p>Go to install new software in Help Section</p>
+<p>Then click on Add Button , there in Name Text box provied "TestNG"</p>
+<p>then Location shoild be this "testng.org/testng-eclipse-update-site/zipped/7.4.0.202106051955/org.testng.eclipse.updatesite.zip"</p>
+<p>put a Https before testng.org. since this comment box does not allow URL.</p>
+<p>this helped me to get the plugin.</p>
+<p>thanks</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-7760"></a>
+<div class="row comment odd clearfix" about="/comment/7760#comment-7760" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/shanthimaruthi" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/4830974914aa515487ee17401da6db14.jpg?d=mm&amp;s=185&amp;r=G" alt="shanthimaruthi&#039;s picture" title="shanthimaruthi&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7760#comment-7760" class="permalink" rel="bookmark">Couldn&#039;t install TestNG with Eclipse IDE Version: 2019-09 R </a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-09-30T23:57:22-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/shanthimaruthi/listings" title="Shanthi Maruthi">Shanthi Maruthi</a> on Thu, 2021-09-30 23:57</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>&lt;p&gt;Not able to install TestNG and Subclipse with Eclipse IDE for Enterprise Java Developers Version: 2019-09 R (4.13.0) Build id: 20190917-1200 Getting following error: Unable to read repository at PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target&lt;/p&gt;</p>
+<p>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</p>
+<p>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</p>
+<p>&lt;p&gt;Please do the needful&lt;/p&gt;</p>
+<p>&lt;p&gt;&amp;nbsp;&lt;/p&gt;</p>
+</div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-7713"></a>
+<div class="row comment even clearfix" about="/comment/7713#comment-7713" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/pratibha91" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/46b3c62a97c99cc77a81f8a17af6f823.jpg?d=mm&amp;s=185&amp;r=G" alt="pratibha91&#039;s picture" title="pratibha91&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7713#comment-7713" class="permalink" rel="bookmark">how to install TestNG on Eclipse Version:-2019-12??</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-08-12T12:45:34-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/pratibha91/listings" title="Pratibha Mishraa">Pratibha Mishraa</a> on Thu, 2021-08-12 12:45</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Kindly Guide me how to install Test NG on Eclipse Version 2019-12. I tried all the ways as discussed here on comments but no success. Please guide.</p></div></div></div>          </div>
+
+      </div>
+</div>
+
+<div class="indented"><a id="comment-7754"></a>
+<div class="row comment odd clearfix" about="/comment/7754#comment-7754" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/bhumirao" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/b5d7ce01ce3e7d6cdc71a7c024580423.jpg?d=mm&amp;s=185&amp;r=G" alt="bhumirao&#039;s picture" title="bhumirao&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7754#comment-7754" class="permalink" rel="bookmark">Re: how to install TestNG on Eclipse Version:-2019-12??</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-09-27T15:25:27-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/bhumirao/listings" title="Bhumika S">Bhumika S</a> on Mon, 2021-09-27 15:25</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/7713#comment-7713" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi. I had the same issue. All I did was:</p>
+<ol><li>Go to Help-&gt;Install New Software</li>
+<li>Enter this URL <em><a href="https://marketplace.eclipse.org/content/testng-eclipse" rel="nofollow">https://marketplace.eclipse.org/content/testng-eclipse</a></em> in the <strong>Work with</strong> input box</li>
+<li>Click on the <strong>'Add'</strong> button</li>
+<li><strong>TestNG</strong> will appear with a checkbox next to it.</li>
+<li>Check that box and click on <strong>'Next'</strong> button.</li>
+<li>Wait for the plugin to download.</li>
+</ol><p>You're welcome :)</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-7715"></a>
+<div class="row comment even clearfix" about="/comment/7715#comment-7715" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/ntan" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/bcd7fb18d53fcd336414ad84dde8aac1.jpg?d=mm&amp;s=185&amp;r=G" alt="ntan&#039;s picture" title="ntan&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7715#comment-7715" class="permalink" rel="bookmark">Re: how to install TestNG on Eclipse Version:-2019-12??</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-08-13T17:41:10-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/ntan/listings" title="Nick Tan">Nick Tan</a> on Fri, 2021-08-13 17:41</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/7713#comment-7713" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>hi </p>
+<p>could you share the error msg? </p>
+<p>can you try with installing via offline update site <a href="https://testng.org/testng-eclipse-update-site/zipped/7.4.0.202106051955/org.testng.eclipse.updatesite.zip" rel="nofollow">https://testng.org/testng-eclipse-update-site/zipped/7.4.0.202106051955/...</a></p>
+<p>pls report issue at <a href="https://github.com/cbeust/testng-eclipse/issues" rel="nofollow">https://github.com/cbeust/testng-eclipse/issues</a></p></div></div></div>          </div>
+
+      </div>
+</div>
+</div><a id="comment-7556"></a>
+<div class="row comment odd clearfix" about="/comment/7556#comment-7556" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/lpidikiti" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/9046eabffa8ace22c09d5740ece2e947.jpg?d=mm&amp;s=185&amp;r=G" alt="lpidikiti&#039;s picture" title="lpidikiti&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7556#comment-7556" class="permalink" rel="bookmark">Error after Installing</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-05-19T18:43:22-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/lpidikiti/listings" title="Lalitha Pidikiti">Lalitha Pidikiti</a> on Wed, 2021-05-19 18:43</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>I was successfully able to install TestNg and tried to execute test cases and I am getting below errot along with the result.</p>
+<p>java.lang.AssertionError: Couldn't find resource: jquery.min.js<br />
+    at org.testng.reporters.jq.Main.generateReport(Main.java:92)<br />
+    at org.testng.TestNG.generateReports(TestNG.java:1093)<br />
+    at org.testng.TestNG.run(TestNG.java:1036)<br />
+    at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+    at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+    at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+ </p></div></div></div>          </div>
+
+      </div>
+</div>
+
+<div class="indented"><a id="comment-7581"></a>
+<div class="row comment even clearfix" about="/comment/7581#comment-7581" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/reece" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/5eee4d41d369f160d10763b73123a12b.jpg?d=mm&amp;s=185&amp;r=G" alt="reece&#039;s picture" title="reece&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7581#comment-7581" class="permalink" rel="bookmark">Re: Error after Installing</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-06-01T10:22:47-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/reece/listings" title="R. Gimmerthal">R. Gimmerthal</a> on Tue, 2021-06-01 10:22</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/7556#comment-7556" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Same problem occurs to me. Does anyone already have a solution?</p>
+<p>All my test run well...but no report can be generated.</p></div></div></div>          </div>
+
+      </div>
+</div>
+
+<div class="indented"><a id="comment-7584"></a>
+<div class="row comment odd clearfix" about="/comment/7584#comment-7584" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/ntan" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/bcd7fb18d53fcd336414ad84dde8aac1.jpg?d=mm&amp;s=185&amp;r=G" alt="ntan&#039;s picture" title="ntan&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7584#comment-7584" class="permalink" rel="bookmark">Re: Re: Error after Installing</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-06-02T14:14:32-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/ntan/listings" title="Nick Tan">Nick Tan</a> on Wed, 2021-06-02 14:14</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/7581#comment-7581" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>hi , pls follow up this thread <a href="https://github.com/cbeust/testng/issues/2524#issuecomment-850211944" rel="nofollow">https://github.com/cbeust/testng/issues/2524#issuecomment-850211944</a></p></div></div></div>          </div>
+
+      </div>
+</div>
+</div></div><a id="comment-7538"></a>
+<div class="row comment even clearfix" about="/comment/7538#comment-7538" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/avadnere" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/efed7b0c9024258497d03f1c6a635c96.jpg?d=mm&amp;s=185&amp;r=G" alt="avadnere&#039;s picture" title="avadnere&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7538#comment-7538" class="permalink" rel="bookmark">Not able to install TestNG</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-05-14T07:23:20-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/avadnere/listings" title="Ankita Vadnere">Ankita Vadnere</a> on Fri, 2021-05-14 07:23</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Not able to install TestNG</p>
+<p>it says cannot perform operation. and keeps loading and takes forever. Please give me any solution.</p></div></div></div>          </div>
+
+      </div>
+</div>
+
+<div class="indented"><a id="comment-7540"></a>
+<div class="row comment odd clearfix" about="/comment/7540#comment-7540" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/ntan" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/bcd7fb18d53fcd336414ad84dde8aac1.jpg?d=mm&amp;s=185&amp;r=G" alt="ntan&#039;s picture" title="ntan&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7540#comment-7540" class="permalink" rel="bookmark">Re: Not able to install TestNG</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-05-14T17:53:35-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/ntan/listings" title="Nick Tan">Nick Tan</a> on Fri, 2021-05-14 17:53</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/7538#comment-7538" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>could you download the update-site archive <a href="https://github.com/testng-team/testng-eclipse-update-site/tree/main/zipped" rel="nofollow">https://github.com/testng-team/testng-eclipse-update-site/tree/main/zipped</a> and install on your local laptop (to avoid any network glitch)</p></div></div></div>          </div>
+
+      </div>
+</div>
+</div><a id="comment-7537"></a>
+<div class="row comment even clearfix" about="/comment/7537#comment-7537" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/ldisemelo" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/1723eaa00eda17bee5a2c0f77c4613b8.jpg?d=mm&amp;s=185&amp;r=G" alt="ldisemelo&#039;s picture" title="ldisemelo&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7537#comment-7537" class="permalink" rel="bookmark">TestNG for Eclipse</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-05-13T14:34:43-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/ldisemelo/listings" title="Labius Ramono Disemelo">Labius Ramono Disemelo</a> on Thu, 2021-05-13 14:34</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>I have followed the comments on the section to try and sort this error on my own, i have not found anything so far that works, gettting the below error, tried different also with version of Eclispe 2019-03 </p>
+<p><em>"Unable to read repository at //testng.org/testng-eclipse-update-site/content.xml.<br />
+Certificate for &lt;testng.org&gt; doesn't match any of the subject alternative names: [<a href="http://www.github.com" rel="nofollow">www.github.com</a>, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]"</em></p>
+<p>openjdk version "11" 2018-09-25<br />
+OpenJDK Runtime Environment 18.9 (build 11+28)<br />
+OpenJDK 64-Bit Server VM 18.9 (build 11+28, mixed mode)</p>
+<p>Eclipse IDE for Java Developers (includes Incubating components)</p>
+<p>Version: 2021-03 (4.19.0)<br />
+Build id: 20210312-0638</p>
+<p>Thanks</p></div></div></div>          </div>
+
+      </div>
+</div>
+
+<div class="indented"><a id="comment-7539"></a>
+<div class="row comment odd clearfix" about="/comment/7539#comment-7539" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/ntan" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/bcd7fb18d53fcd336414ad84dde8aac1.jpg?d=mm&amp;s=185&amp;r=G" alt="ntan&#039;s picture" title="ntan&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7539#comment-7539" class="permalink" rel="bookmark">Re: TestNG for Eclipse</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-05-14T17:52:30-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/ntan/listings" title="Nick Tan">Nick Tan</a> on Fri, 2021-05-14 17:52</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/7537#comment-7537" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>pls try one more time, if it still doesn't work, you can download the update-site archive and install from your local.</p>
+<p><a href="https://github.com/testng-team/testng-eclipse-update-site/tree/main/zipped" rel="nofollow">https://github.com/testng-team/testng-eclipse-update-site/tree/main/zipped</a></p>
+<p> </p></div></div></div>          </div>
+
+      </div>
+</div>
+</div><a id="comment-7526"></a>
+<div class="row comment even clearfix" about="/comment/7526#comment-7526" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/ashah8jp" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/43f48937ea57afef2a1cde9c2d1d3444.jpg?d=mm&amp;s=185&amp;r=G" alt="ashah8jp&#039;s picture" title="ashah8jp&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7526#comment-7526" class="permalink" rel="bookmark">Error with installing tetng plugin on Eclipse</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-05-10T14:50:22-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/ashah8jp/listings" title="Aayush Shah">Aayush Shah</a> on Mon, 2021-05-10 14:50</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>I see the below error when I try to install the TestNG plugin in my Eclipse either via the marketplace directly or using the new testng-update URLs. Has anyone ever faced this issue before and have any idea as to how to resolve it? Any help would be really appreciated. </p>
+<p>Eclipse version : 4.7.3a</p>
+<p>Java version : 1.8.0._201</p>
+<p>Error:</p>
+<p>Unable to read repository at "testng.org/testng-eclipse-update-site/content.xml"<br />
+sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target</p></div></div></div>          </div>
+
+      </div>
+</div>
+
+<div class="indented"><a id="comment-7530"></a>
+<div class="row comment odd clearfix" about="/comment/7530#comment-7530" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/ntan" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/bcd7fb18d53fcd336414ad84dde8aac1.jpg?d=mm&amp;s=185&amp;r=G" alt="ntan&#039;s picture" title="ntan&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7530#comment-7530" class="permalink" rel="bookmark">Re: Error with installing tetng plugin on Eclipse</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-05-11T15:15:45-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/ntan/listings" title="Nick Tan">Nick Tan</a> on Tue, 2021-05-11 15:15</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/7526#comment-7526" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>hi, since <a href="https://github.com/cbeust/testng-eclipse/releases/tag/6.14.3.201902250526" rel="nofollow">https://github.com/cbeust/testng-eclipse/releases/tag/6.14.3.201902250526</a> it requires eclipse 4.8, let me update the marketplace</p></div></div></div>          </div>
+
+      </div>
+</div>
+</div><a id="comment-7499"></a>
+<div class="row comment even clearfix" about="/comment/7499#comment-7499" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/gjosens3" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/c0daf5b818b880c8b79b0a174d45178c.jpg?d=mm&amp;s=185&amp;r=G" alt="gjosens3&#039;s picture" title="gjosens3&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7499#comment-7499" class="permalink" rel="bookmark">TestNG Eclipse Plugin Installation issue resolved</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-05-04T21:04:59-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/gjosens3/listings" title="George Jose">George Jose</a> on Tue, 2021-05-04 21:04</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>I got my issue resolved by using a different offical link and was able to install TestNG version 7.4 in the eclipse version 2021-03. Please find the details below to install it:</p>
+<p>1. Click "Help -&gt; Install New Software..." on top level menu</p>
+<p>2. Paste the url testng.org/testng-eclipse-update-site (use https://) and press enter.</p>
+<p>3. Select the plugins</p>
+<p>4. Click "Next" button and accept the license to complete the installation.</p>
+<p>5. Restart Eclipse</p>
+<p>Note: Source from official TestNG github link. </p></div></div></div>          </div>
+
+      </div>
+</div>
+
+<div class="indented"><a id="comment-7531"></a>
+<div class="row comment odd clearfix" about="/comment/7531#comment-7531" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/ntan" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/bcd7fb18d53fcd336414ad84dde8aac1.jpg?d=mm&amp;s=185&amp;r=G" alt="ntan&#039;s picture" title="ntan&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7531#comment-7531" class="permalink" rel="bookmark">Re: TestNG Eclipse Plugin Installation issue resolved</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-05-11T15:16:44-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/ntan/listings" title="Nick Tan">Nick Tan</a> on Tue, 2021-05-11 15:16</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/7499#comment-7499" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>yes, we migrate the update-site to github due to bintray sunset</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-7514"></a>
+<div class="row comment even clearfix" about="/comment/7514#comment-7514" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/djohneb7" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/9721b4d87f72bddb217d36a928ec87df.jpg?d=mm&amp;s=185&amp;r=G" alt="djohneb7&#039;s picture" title="djohneb7&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7514#comment-7514" class="permalink" rel="bookmark">Re: TestNG Eclipse Plugin Installation issue resolved</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-05-06T14:14:21-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/djohneb7/listings" title="Derik John">Derik John</a> on Thu, 2021-05-06 14:14</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/7499#comment-7499" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>This was helpful, thanks.</p>
+<p>I was getting error :  'Could not find dl.bintray.com/testng-team/testng-eclipse-release'</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-7510"></a>
+<div class="row comment odd clearfix" about="/comment/7510#comment-7510" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/vvish" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/5823e1ca2ef61e7a8857b110461168d8.jpg?d=mm&amp;s=185&amp;r=G" alt="vvish&#039;s picture" title="vvish&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7510#comment-7510" class="permalink" rel="bookmark">Re: TestNG Eclipse Plugin Installation issue resolved</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-05-06T01:18:07-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/vvish/listings" title="Vishnu Vish">Vishnu Vish</a> on Thu, 2021-05-06 01:18</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/7499#comment-7499" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>I am using Eclipse Java EE IDE web developers version:2018-09                                                                                                          Followed the above steps. It worked for me                                                                                                                                                        Thank you</p></div></div></div>          </div>
+
+      </div>
+</div>
+</div><a id="comment-7357"></a>
+<div class="row comment even clearfix" about="/comment/7357#comment-7357" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/asundarkar" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/07995d4f16bd7f881485317c25066816.jpg?d=mm&amp;s=185&amp;r=G" alt="asundarkar&#039;s picture" title="asundarkar&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7357#comment-7357" class="permalink" rel="bookmark">This TestNG version is not compatible with eclipse 2020-12</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-02-08T15:14:21-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/asundarkar/listings" title="Anupama Sundarkar">Anupama Sundarkar</a> on Mon, 2021-02-08 15:14</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>I am trying to install TestNG. The sites beust and lnkd.in/eQ9Z4Fx are not found and returns a 404. Tried downloading from TestNG page on Eclipse Market Place, but when tried to run the testNG program its showing error as its not compatible with eclipse 2020-12 version. Any other ideas from where to download testNG version which will work on eclipse 2020-12 #TestNG?</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-7257"></a>
+<div class="row comment odd clearfix" about="/comment/7257#comment-7257" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/akumariwiy" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/9fafcc0df7808498e7356edd2304e199.jpg?d=mm&amp;s=185&amp;r=G" alt="akumariwiy&#039;s picture" title="akumariwiy&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7257#comment-7257" class="permalink" rel="bookmark">TestNG Uncompatible</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2020-11-26T02:17:09-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/akumariwiy/listings" title="Alpana Kumari">Alpana Kumari</a> on Thu, 2020-11-26 02:17</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi, I tried installing TestnG from eclipse market place for Version: 2020-06 (4.16.0). But it shows TestNG version is not comaptible with this version of Eclipse.Even i tried using locations mentioned in previous posts.But shows same error couldn't find the file on these locations.Can anyone tell me which version of eclipse i should download or is there any workaround for this version?</p></div></div></div>          </div>
+
+      </div>
+</div>
+
+<div class="indented"><a id="comment-7296"></a>
+<div class="row comment even clearfix" about="/comment/7296#comment-7296" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/ssbahi" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/5e1bfe503474c78bffb741da5ed366e9.jpg?d=mm&amp;s=185&amp;r=G" alt="ssbahi&#039;s picture" title="ssbahi&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7296#comment-7296" class="permalink" rel="bookmark">Re: TestNG Uncompatible</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2020-12-24T10:48:00-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/ssbahi/listings" title="Sala Sbahi">Sala Sbahi</a> on Thu, 2020-12-24 10:47</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/7257#comment-7257" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Try to take a look at testng org site then scroll down in Build TestNG from source code then click on hosted on github</p>
+<p>when you're on the github page you will see the installation steps it worked for me</p>
+<p> </p></div></div></div>          </div>
+
+      </div>
+</div>
+
+<div class="indented"><a id="comment-7532"></a>
+<div class="row comment odd clearfix" about="/comment/7532#comment-7532" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/ntan" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/bcd7fb18d53fcd336414ad84dde8aac1.jpg?d=mm&amp;s=185&amp;r=G" alt="ntan&#039;s picture" title="ntan&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7532#comment-7532" class="permalink" rel="bookmark">Re: Re: TestNG Uncompatible</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2021-05-11T15:18:13-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/ntan/listings" title="Nick Tan">Nick Tan</a> on Tue, 2021-05-11 15:18</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/7296#comment-7296" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>sorry about that, just update the compliability info on eclipse marketplace</p></div></div></div>          </div>
+
+      </div>
+</div>
+</div></div><a id="comment-7080"></a>
+<div class="row comment even clearfix" about="/comment/7080#comment-7080" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/shanthiusha94" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/b56f0b216ffc87c9733f66e2cdb0cfa6.jpg?d=mm&amp;s=185&amp;r=G" alt="shanthiusha94&#039;s picture" title="shanthiusha94&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7080#comment-7080" class="permalink" rel="bookmark">TestNG for Eclipse 2020-06 (4.16.0) not available in Marketplace</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2020-08-12T03:21:44-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/shanthiusha94/listings" title="USHA P">USHA P</a> on Wed, 2020-08-12 03:21</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi any idea when I can get TestNg in market place for the latest version of Eclipse ?</p>
+<p>Is there any workaround that helps me to install it ?</p>
+<p>Thanks</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-7039"></a>
+<div class="row comment odd clearfix" about="/comment/7039#comment-7039" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/bdewangan" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/b01383d1ee770735ae456c7fc964848d.jpg?d=mm&amp;s=185&amp;r=G" alt="bdewangan&#039;s picture" title="bdewangan&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7039#comment-7039" class="permalink" rel="bookmark">TestNG Installation on Eclipse</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2020-07-17T03:56:12-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/bdewangan/listings" title="Basant Dewangan">Basant Dewangan</a> on Fri, 2020-07-17 03:56</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"> 
+ 
+<p>Hi Friends,  That link provided in the eclipse.org is working perfectly.  I have installed it and working fine. </p>
+<p><strong>dl.bintray.com/testng-team/testng-eclipse-release/ </strong></p>
+<p>GO to Help and select Install New Software &gt;&gt; Add &gt;&gt; Name TestNG and Location Paste this above link. </p>
+<p>Need to wait for processing.</p>
+<p>Then you can see, it will install TestNG in the eclipse. </p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-7001"></a>
+<div class="row comment even clearfix" about="/comment/7001#comment-7001" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/ahmann" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/1c0527b5b42c14a1e359d4a65c3d3af5.jpg?d=mm&amp;s=185&amp;r=G" alt="ahmann&#039;s picture" title="ahmann&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/7001#comment-7001" class="permalink" rel="bookmark">STS 4.7.0.RELEASE works with TestNG  7.2.0.r202003151902</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2020-06-26T03:31:29-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/ahmann/listings" title="Andreas  öhmann">Andreas  öhmann</a> on Fri, 2020-06-26 03:31</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>You can ignore the warning from Eclipse Marketplace Client.</p>
+<p>Just try to install the latest version from </p>
+<p><a href="http://dl.bintray.com/testng-team/testng-eclipse-release/" rel="nofollow">http://dl.bintray.com/testng-team/testng-eclipse-release/</a></p>
+<p>Great Plugin! :D</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-6922"></a>
+<div class="row comment odd clearfix" about="/comment/6922#comment-6922" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/nvenugopalut3" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/31953f6e478ec7111585552bedbe6d85.jpg?d=mm&amp;s=185&amp;r=G" alt="nvenugopalut3&#039;s picture" title="nvenugopalut3&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6922#comment-6922" class="permalink" rel="bookmark">TestNG for Eclipse 2020-03 Mac OS</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2020-05-05T02:01:31-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/nvenugopalut3/listings" title="NAGENDRA VENUGOPAL">NAGENDRA VENUGOPAL</a> on Tue, 2020-05-05 02:01</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Can some one share the link to downlaod TestNG for Eclipse 2020-03 Mac OS?</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-6846"></a>
+<div class="row comment even clearfix" about="/comment/6846#comment-6846" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/tmacdonnell08r" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/2ecfb9c356f76c67512284b8694c55a1.jpg?d=mm&amp;s=185&amp;r=G" alt="tmacdonnell08r&#039;s picture" title="tmacdonnell08r&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6846#comment-6846" class="permalink" rel="bookmark">Version Of Eclipse</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2020-03-24T11:30:26-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/tmacdonnell08r/listings" title="Toby Macdonnell">Toby Macdonnell</a> on Tue, 2020-03-24 11:30</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Afternoon everyone, I am struggling to find a version of Eclipse that works with the TestNG plugin above. Is anyone able to assist.</p>
+<p> </p>
+<p>Thanks,</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-6793"></a>
+<div class="row comment odd clearfix" about="/comment/6793#comment-6793" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/cmartinezui4" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/0190e726271c6a7bb2c6efb4853f1841.jpg?d=mm&amp;s=185&amp;r=G" alt="cmartinezui4&#039;s picture" title="cmartinezui4&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6793#comment-6793" class="permalink" rel="bookmark">Fix for 2019-12 verified 2020-02-27</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2020-02-27T20:54:26-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/cmartinezui4/listings" title="Cesar Alonso Martinez Sanchez">Cesar Alonso Martinez Sanchez</a> on Thu, 2020-02-27 20:54</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Go to Help &gt; Install New Software... &gt; Add...<br /><strong>Name: </strong>TestNG Eclipse</p>
+<p><strong>Location: </strong>dl.bintray.com/testng-team/testng-eclipse-release/</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-6770"></a>
+<div class="row comment even clearfix" about="/comment/6770#comment-6770" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/vmalisetty" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/dfd97c4008c0e944b777b84736ffc48f.jpg?d=mm&amp;s=185&amp;r=G" alt="vmalisetty&#039;s picture" title="vmalisetty&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6770#comment-6770" class="permalink" rel="bookmark">Could not able to plugin TestNG.</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2020-02-12T17:19:22-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/vmalisetty/listings" title="Vinathi Malisetty">Vinathi Malisetty</a> on Wed, 2020-02-12 17:19</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>TestNG is not compatable for Eclipse IDE vertion 2019-12.</p>
+<p>i am following all instructions to install TestNG. but still i am getting the error "not compatable".</p>
+<p> </p></div></div></div>          </div>
+
+      </div>
+</div>
+
+<div class="indented"><a id="comment-6772"></a>
+<div class="row comment odd clearfix" about="/comment/6772#comment-6772" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/aignatenko" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/dd5f4a2c0cda627d2e0f91319fbf9fde.jpg?d=mm&amp;s=185&amp;r=G" alt="aignatenko&#039;s picture" title="aignatenko&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6772#comment-6772" class="permalink" rel="bookmark">Re: Could not able to plugin TestNG.</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2020-02-13T17:19:47-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/aignatenko/listings" title="Anatoly Ignatenko">Anatoly Ignatenko</a> on Thu, 2020-02-13 17:19</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/6770#comment-6770" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>for the link.... someone replied to my post and it worked for me "dl.bintray.com/testng-team/testng-eclipse-release/". Copy/Paste that in address bar without double quotes. Then click on "zipped", then click on latest version and click on next link in the next page. </p>
+<p>That will download a zip file. Then in Eclipse click "Install New Software" in Help Menu, then Add, then Archive and route to downloaded zip.</p>
+<p>Works perfectly</p></div></div></div>          </div>
+
+      </div>
+</div>
+
+<div class="indented"><a id="comment-6859"></a>
+<div class="row comment even clearfix" about="/comment/6859#comment-6859" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/srajanala" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/387e84df85ee7b385981492659875d4d.jpg?d=mm&amp;s=185&amp;r=G" alt="srajanala&#039;s picture" title="srajanala&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6859#comment-6859" class="permalink" rel="bookmark">Re: Re: Could not able to plugin TestNG.</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2020-03-28T17:25:25-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/srajanala/listings" title="Syamala Rajanala">Syamala Rajanala</a> on Sat, 2020-03-28 17:25</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/6772#comment-6772" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>didnt work for me initially. Later tried mapping zipped folder. It worked.. Thanks</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-6858"></a>
+<div class="row comment odd clearfix" about="/comment/6858#comment-6858" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/srajanala" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/387e84df85ee7b385981492659875d4d.jpg?d=mm&amp;s=185&amp;r=G" alt="srajanala&#039;s picture" title="srajanala&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6858#comment-6858" class="permalink" rel="bookmark">Re: Re: Could not able to plugin TestNG.</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2020-03-28T16:49:25-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/srajanala/listings" title="Syamala Rajanala">Syamala Rajanala</a> on Sat, 2020-03-28 16:49</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/6772#comment-6772" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>doesnt work for me</p></div></div></div>          </div>
+
+      </div>
+</div>
+</div></div><a id="comment-6763"></a>
+<div class="row comment even clearfix" about="/comment/6763#comment-6763" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/aignatenko" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/dd5f4a2c0cda627d2e0f91319fbf9fde.jpg?d=mm&amp;s=185&amp;r=G" alt="aignatenko&#039;s picture" title="aignatenko&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6763#comment-6763" class="permalink" rel="bookmark">Still not working. Comes back as error 410. </a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2020-02-11T17:30:26-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/aignatenko/listings" title="Anatoly Ignatenko">Anatoly Ignatenko</a> on Tue, 2020-02-11 17:30</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>TestNG is not installing on latest Eclipse 2019-12</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-6760"></a>
+<div class="row comment odd clearfix" about="/comment/6760#comment-6760" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/azepezauer" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/5e931ed56e7893a24e695b05da0861e2.jpg?d=mm&amp;s=185&amp;r=G" alt="azepezauer&#039;s picture" title="azepezauer&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6760#comment-6760" class="permalink" rel="bookmark">Still can&#039;t install in version 4.12</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2020-02-07T19:06:56-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/azepezauer/listings" title="Anthony Zepezauer">Anthony Zepezauer</a> on Fri, 2020-02-07 19:06</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>beust.com/eclipse returns a 404.  Any other ideas?</p></div></div></div>          </div>
+
+      </div>
+</div>
+
+<div class="indented"><a id="comment-6764"></a>
+<div class="row comment even clearfix" about="/comment/6764#comment-6764" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/zanmelden" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/98b38a7a76930c5442bc07ecd84b3ab5.jpg?d=mm&amp;s=185&amp;r=G" alt="zanmelden&#039;s picture" title="zanmelden&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6764#comment-6764" class="permalink" rel="bookmark">Re: Still can&#039;t install in version 4.12</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2020-02-12T08:35:10-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/zanmelden/listings" title="T M">T M</a> on Wed, 2020-02-12 08:35</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/6760#comment-6760" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>dl.bintray.com/testng-team/testng-eclipse-release/ works for me</p></div></div></div>          </div>
+
+      </div>
+</div>
+</div><a id="comment-6685"></a>
+<div class="row comment odd clearfix" about="/comment/6685#comment-6685" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/fvargasdesouza" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/543bfc57f311a75d329f1f94d658e391.jpg?d=mm&amp;s=185&amp;r=G" alt="fvargasdesouza&#039;s picture" title="fvargasdesouza&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6685#comment-6685" class="permalink" rel="bookmark">Solution for 2019-12</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2020-01-10T08:16:04-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/fvargasdesouza/listings" title="Felipe Thomas Vargas de Souza">Felipe Thomas Vargas de Souza</a> on Fri, 2020-01-10 08:16</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Just tried Lee Carver's suggestion with version 2019-12 and it worked.</p>
+<p>beust.com/eclipse seems the way to go if you can't find it in the marketplace.</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-6640"></a>
+<div class="row comment even clearfix" about="/comment/6640#comment-6640" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/zrahman7m5" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/abf41477dbfb3b40a9fd90d85c3dad44.jpg?d=mm&amp;s=185&amp;r=G" alt="zrahman7m5&#039;s picture" title="zrahman7m5&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6640#comment-6640" class="permalink" rel="bookmark">TestNG plugin is not available to install in Eclipse</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2019-12-02T03:46:30-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/zrahman7m5/listings" title="Ziyaur Rahman">Ziyaur Rahman</a> on Mon, 2019-12-02 03:46</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi All,</p>
+<p>Our team found that TestNG plugin is not available to be installed in eclipse. Team tried from both the options available in Help like Market place and New Software installation through "beust.com/eclipose". Even beust site is not responding on either private or Public network. </p>
+<p>Request you all to check and respond with the solution. We tried every instaruction wriiten on below comments.</p>
+<p> </p></div></div></div>          </div>
+
+      </div>
+</div>
+
+<div class="indented"><a id="comment-6641"></a>
+<div class="row comment odd clearfix" about="/comment/6641#comment-6641" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/ntan" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/bcd7fb18d53fcd336414ad84dde8aac1.jpg?d=mm&amp;s=185&amp;r=G" alt="ntan&#039;s picture" title="ntan&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6641#comment-6641" class="permalink" rel="bookmark">Re: TestNG plugin is not available to install in Eclipse</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2019-12-02T11:25:25-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/ntan/listings" title="Nick Tan">Nick Tan</a> on Mon, 2019-12-02 11:25</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/6640#comment-6640" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>before cbeust response, you can install through the direct update site: <a href="https://dl.bintray.com/testng-team/testng-eclipse-release/7.0.0/" rel="nofollow">https://dl.bintray.com/testng-team/testng-eclipse-release/7.0.0/</a></p>
+<p> </p>
+<p>read also for troubleshooting: <a href="https://github.com/cbeust/testng-eclipse/blob/master/docs/Troubleshooting.md" rel="nofollow">https://github.com/cbeust/testng-eclipse/blob/master/docs/Troubleshootin...</a></p></div></div></div>          </div>
+
+      </div>
+</div>
+</div><a id="comment-6639"></a>
+<div class="row comment even clearfix" about="/comment/6639#comment-6639" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/zrahman7m5" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/abf41477dbfb3b40a9fd90d85c3dad44.jpg?d=mm&amp;s=185&amp;r=G" alt="zrahman7m5&#039;s picture" title="zrahman7m5&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6639#comment-6639" class="permalink" rel="bookmark">getting Error No repository found at beust.com/eclipse.</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2019-11-30T03:48:01-05:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/zrahman7m5/listings" title="Ziyaur Rahman">Ziyaur Rahman</a> on Sat, 2019-11-30 03:48</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Getting below issue while installing TestNG plug in from Eclipse Oxygen April 2018 version.</p>
+<p>Error:   No repository found at beust.com/eclipse.</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-6460"></a>
+<div class="row comment odd clearfix" about="/comment/6460#comment-6460" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/lcarver" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/66cc5ada5709bca4c657ea91677ae6cf.jpg?d=mm&amp;s=185&amp;r=G" alt="lcarver&#039;s picture" title="lcarver&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6460#comment-6460" class="permalink" rel="bookmark">Install from beust.com</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2019-08-23T10:25:41-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/lcarver/listings" title="Lee Carver">Lee Carver</a> on Fri, 2019-08-23 10:25</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>The Marketplace install for the latest versions of Eclipse (e.g. 2019-06) reports that the available release is incompatable with the running Eclipse.</p>
+<p>The installer at beust.com/eclipse works fine. You simply need to add that URL as a known site for the Install New Software.. dialog.</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-6419"></a>
+<div class="row comment even clearfix" about="/comment/6419#comment-6419" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/lturnertm2" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/3d83d7bda5dd8c58cfae485ab9e9cdd2.jpg?d=mm&amp;s=185&amp;r=G" alt="lturnertm2&#039;s picture" title="lturnertm2&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6419#comment-6419" class="permalink" rel="bookmark">I was able to add TestNG for Eclipse IDE 2019-06</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2019-08-06T09:10:44-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/lturnertm2/listings" title="Lana Turner">Lana Turner</a> on Tue, 2019-08-06 09:10</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>I followed the instructions on a web page (that I can not enter here).  Search in google for how do i import a testng jar into eclipse.  </p>
+<p>and click on the link that says How to Install TestNG framework</p>
+<p>I hope this helps.</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-6415"></a>
+<div class="row comment odd clearfix" about="/comment/6415#comment-6415" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/acrawley" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/6cdcb1b4d7dbb1696e71a763f8b32fef.jpg?d=mm&amp;s=185&amp;r=G" alt="acrawley&#039;s picture" title="acrawley&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6415#comment-6415" class="permalink" rel="bookmark">TestNG for Eclipse 2019-06(4.12) not available in Marketplace</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2019-08-02T06:45:58-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/acrawley/listings" title="Audrey Crawley">Audrey Crawley</a> on Fri, 2019-08-02 06:45</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi any idea when I can get TestNg in market place for the latest version of Eclipse ?</p>
+<p>Is there any workaround that helps me to install it ?</p>
+<p>Thanks</p></div></div></div>          </div>
+
+      </div>
+</div>
+
+<div class="indented"><a id="comment-6449"></a>
+<div class="row comment even clearfix" about="/comment/6449#comment-6449" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/ntan" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/bcd7fb18d53fcd336414ad84dde8aac1.jpg?d=mm&amp;s=185&amp;r=G" alt="ntan&#039;s picture" title="ntan&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6449#comment-6449" class="permalink" rel="bookmark">Re:TestNG for Eclipse 2019-06(4.12) not available in Marketplace</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2019-08-19T12:00:15-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/ntan/listings" title="Nick Tan">Nick Tan</a> on Mon, 2019-08-19 12:00</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/6415#comment-6415" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>you can install from the update site directly:</p>
+<p><a href="https://dl.bintray.com/testng-team/testng-eclipse-release/6.14.3/" rel="nofollow">https://dl.bintray.com/testng-team/testng-eclipse-release/6.14.3/</a></p></div></div></div>          </div>
+
+      </div>
+</div>
+</div><a id="comment-6412"></a>
+<div class="row comment odd clearfix" about="/comment/6412#comment-6412" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/acrawley" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/6cdcb1b4d7dbb1696e71a763f8b32fef.jpg?d=mm&amp;s=185&amp;r=G" alt="acrawley&#039;s picture" title="acrawley&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6412#comment-6412" class="permalink" rel="bookmark">TestNG not in the marketplace for Eclipse 2019-06 (4.12)</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2019-07-31T06:49:43-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/acrawley/listings" title="Audrey Crawley">Audrey Crawley</a> on Wed, 2019-07-31 06:49</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi I need some help to install TestNG for the lastest version of Eclipse - Could someone please help.</p>
+<p>Thanks</p>
+<p>Audrey</p></div></div></div>          </div>
+
+      </div>
+</div>
+
+<div class="indented"><a id="comment-6443"></a>
+<div class="row comment even clearfix" about="/comment/6443#comment-6443" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/smohantym3m" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/a39d64e33dce436d1422ce08858d39d1.jpg?d=mm&amp;s=185&amp;r=G" alt="smohantym3m&#039;s picture" title="smohantym3m&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6443#comment-6443" class="permalink" rel="bookmark">Re: TestNG not in the marketplace for Eclipse 2019-06 (4.12)</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2019-08-17T00:55:27-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/smohantym3m/listings" title="Sourav kumar Mohanty">Sourav kumar Mohanty</a> on Sat, 2019-08-17 00:55</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/6412#comment-6412" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>Hi mate have you found out the solution for your problem ? i am also facing th same issue</p></div></div></div>          </div>
+
+      </div>
+</div>
+
+<div class="indented"><a id="comment-6450"></a>
+<div class="row comment odd clearfix" about="/comment/6450#comment-6450" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/lturnertm2" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/3d83d7bda5dd8c58cfae485ab9e9cdd2.jpg?d=mm&amp;s=185&amp;r=G" alt="lturnertm2&#039;s picture" title="lturnertm2&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6450#comment-6450" class="permalink" rel="bookmark">Re: Re: TestNG not in the marketplace for Eclipse 2019-06 (4.12)</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2019-08-19T13:44:01-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/lturnertm2/listings" title="Lana Turner">Lana Turner</a> on Mon, 2019-08-19 13:44</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><span rel="sioc:reply_of" resource="/comment/6443#comment-6443" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>See my answer earlier this month.</p></div></div></div>          </div>
+
+      </div>
+</div>
+</div></div><a id="comment-6411"></a>
+<div class="row comment even clearfix" about="/comment/6411#comment-6411" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/amagdy18c" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/c5b7a9035bea03ee1c73858c891606c1.jpg?d=mm&amp;s=185&amp;r=G" alt="amagdy18c&#039;s picture" title="amagdy18c&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6411#comment-6411" class="permalink" rel="bookmark">&quot; TestNG for Eclipse&quot; Problem </a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2019-07-31T05:31:58-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/amagdy18c/listings" title="Aya Magdy">Aya Magdy</a> on Wed, 2019-07-31 05:31</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>I tried to download " Testng for Eclipse" from Eclipse Marketplace but an error message appear to me inside it the sintance [[ The following solutions are not compatible with this version of Eclipse ]] ,, So What's the solution for this problem to enable me start using this programme in my work</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-6380"></a>
+<div class="row comment odd clearfix" about="/comment/6380#comment-6380" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/ggupta501" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/09835fa52a37a85371245937f9cad788.jpg?d=mm&amp;s=185&amp;r=G" alt="ggupta501&#039;s picture" title="ggupta501&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6380#comment-6380" class="permalink" rel="bookmark">TestNG compatibility with Eclipse Latest Release</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2019-07-18T03:06:01-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/ggupta501/listings" title="Gaurav Gupta">Gaurav Gupta</a> on Thu, 2019-07-18 03:06</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>when testng is not compatible with latest version of Eclipse</p></div></div></div>          </div>
+
+      </div>
+</div>
+<a id="comment-6251"></a>
+<div class="row comment even clearfix" about="/comment/6251#comment-6251" typeof="sioc:Post sioct:Comment">
+
+  <div class="col-xs-5">
+      <div class="user-picture">
+    <a href="/user/mline32" title="View user profile."><img class="media-object dp img-responsive" typeof="foaf:Image" src="https://secure.gravatar.com/avatar/82155b948f12e6b171529382faeac4e9.jpg?d=mm&amp;s=185&amp;r=G" alt="mline32&#039;s picture" title="mline32&#039;s picture" /></a>  </div>
+  </div>
+  <div class="col-xs-19">
+    
+        <h3 property="dc:title" datatype=""><a href="/comment/6251#comment-6251" class="permalink" rel="bookmark">There is a temporary solution</a></h3>
+    
+    <div class="submitted">
+            <span property="dc:date dc:created" content="2019-05-18T00:10:07-04:00" datatype="xsd:dateTime" rel="sioc:has_creator"><p class="content-last-updated">Submitted by <a href="/user/mline32/listings" title="MF Lin">MF Lin</a> on Sat, 2019-05-18 00:10</p></span>    </div>
+
+    <div class="content">
+      <span rel="sioc:reply_of" resource="/content/testng-eclipse" class="rdf-meta element-hidden"></span><div class="field field-name-comment-body field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>To import the plugin from eclipse-2018-09 into the latest eclipse-2019-03.<br />
+This is the way to import, File -&gt; Export -&gt; Install -&gt; Installed software from existing installation, and then follow the steps.</p></div></div></div>          </div>
+
+      </div>
+</div>
+<div class="text-center"><ul class="pagination"><li class="active"><span>1</span></li>
+<li><a title="Go to page 2" href="/content/testng-eclipse/content.jar?page=1">2</a></li>
+<li class="next"><a href="/content/testng-eclipse/content.jar?page=1">next</a></li>
+<li class="pager-last"><a href="/content/testng-eclipse/content.jar?page=1">last</a></li>
+</ul></div>
+  </div>
+    </div>
+  </div>
+</div>  </div>
+
+</section> <!-- /.block -->
+  </div>
+                  </div>
+
+        
+              </section>
+
+              <aside id="main-sidebar-first" role="complementary" class="col-sm-6 col-sm-pull-18">
+            <div class="region region-sidebar-first solstice-region-element-count-3">
+    <section id="block-marketplace-blocks-marketplace-blocks-categories" class="block block-marketplace-blocks block-region-sidebar-first block-solstice-collapse block-solstice-collapsed solstice-block solstice-block-default solstice-block-white-bg block-marketplace-blocks-categories clearfix">
+
+        <h2 class="block-title">Markets</h2>
+    
+  <div class="block-content">
+    <ul class="menu-item-list"><li><a href="/category/markets/eclipse-project">Eclipse Project (4)</a></li>
+<li><a href="/category/markets/tools" class="solstice-menu-collapse solstice-menu-nojs-collapsed">Tools (1339)</a><ul><li><a href="/taxonomy/term/1964%2C31">Application Development Frameworks (171)</a></li>
+<li><a href="/taxonomy/term/28%2C31">Application Management (32)</a></li>
+<li><a href="/taxonomy/term/1%2C31">Application Server (31)</a></li>
+<li><a href="/taxonomy/term/42%2C31">BIRT (10)</a></li>
+<li><a href="/taxonomy/term/4%2C31">Build and Deploy (104)</a></li>
+<li><a href="/taxonomy/term/1973%2C31">Business Intelligence, Reporting and Charting (14)</a></li>
+<li><a href="/taxonomy/term/2%2C31">Code Management (118)</a></li>
+<li><a href="/taxonomy/term/1968%2C31">Collaboration (37)</a></li>
+<li><a href="/taxonomy/term/3%2C31">Database (45)</a></li>
+<li><a href="/taxonomy/term/1970%2C31">Database Development (34)</a></li>
+<li><a href="/taxonomy/term/36%2C31">Database Persistence (17)</a></li>
+<li><a href="/taxonomy/term/5%2C31">Documentation (61)</a></li>
+<li><a href="/taxonomy/term/4397%2C31">Eclipse Kura (122)</a></li>
+<li><a href="/taxonomy/term/4988%2C31">Eclipse SmartHome (46)</a></li>
+<li><a href="/taxonomy/term/1963%2C31">EclipseRT Target Platform Components (10)</a></li>
+<li><a href="/taxonomy/term/6%2C31">Editor (338)</a></li>
+<li><a href="/taxonomy/term/7%2C31">Entertainment (14)</a></li>
+<li><a href="/taxonomy/term/1972%2C31">General Purpose Tools (123)</a></li>
+<li><a href="/taxonomy/term/8%2C31">Graphics (34)</a></li>
+<li><a href="/taxonomy/term/24%2C31">IDE (343)</a></li>
+<li><a href="/taxonomy/term/3574%2C31">Internet of Things (IoT) (35)</a></li>
+<li><a href="/taxonomy/term/9%2C31">J2EE Development Platform (44)</a></li>
+<li><a href="/taxonomy/term/27%2C31">J2ME (5)</a></li>
+<li><a href="/taxonomy/term/10%2C31">Languages (155)</a></li>
+<li><a href="/taxonomy/term/1969%2C31">Linux Tools (19)</a></li>
+<li><a href="/taxonomy/term/37%2C31">Logging (22)</a></li>
+<li><a href="/taxonomy/term/1974%2C31">Mobile and Device Development (50)</a></li>
+<li><a href="/taxonomy/term/1971%2C31">Modeling (90)</a></li>
+<li><a href="/taxonomy/term/11%2C31">Modeling Tools (145)</a></li>
+<li><a href="/taxonomy/term/38%2C31">Mylyn Connectors (20)</a></li>
+<li><a href="/taxonomy/term/12%2C31">Network (14)</a></li>
+<li><a href="/taxonomy/term/23%2C31">Other (75)</a></li>
+<li><a href="/taxonomy/term/30%2C31">Process (18)</a></li>
+<li><a href="/taxonomy/term/13%2C31">Profiling (22)</a></li>
+<li><a href="/taxonomy/term/1966%2C31">Programming Languages (100)</a></li>
+<li><a href="/taxonomy/term/39%2C31">Reporting (32)</a></li>
+<li><a href="/taxonomy/term/25%2C31">Rich Client Applications (39)</a></li>
+<li><a href="/taxonomy/term/6812%2C31">Science (4)</a></li>
+<li><a href="/taxonomy/term/26%2C31">SCM (20)</a></li>
+<li><a href="/taxonomy/term/40%2C31">Search (41)</a></li>
+<li><a href="/taxonomy/term/1965%2C31">SOA Development (15)</a></li>
+<li><a href="/taxonomy/term/14%2C31">Source Code Analyzer (100)</a></li>
+<li><a href="/taxonomy/term/29%2C31">Systems Development (58)</a></li>
+<li><a href="/taxonomy/term/15%2C31">Team Development (54)</a></li>
+<li><a href="/taxonomy/term/16%2C31">Testing (90)</a></li>
+<li><a href="/taxonomy/term/17%2C31">Tools (565)</a></li>
+<li><a href="/taxonomy/term/18%2C31">UI (96)</a></li>
+<li><a href="/taxonomy/term/19%2C31">UML (40)</a></li>
+<li><a href="/taxonomy/term/20%2C31">Web (91)</a></li>
+<li><a href="/taxonomy/term/21%2C31">Web Services (32)</a></li>
+<li><a href="/taxonomy/term/1967%2C31">Web, XML, Java EE and OSGi Enterprise Development (32)</a></li>
+<li><a href="/taxonomy/term/22%2C31">XML (29)</a></li>
+</ul></li>
+<li><a href="/category/markets/iot" class="solstice-menu-collapse solstice-menu-nojs-collapsed">IoT (172)</a><ul><li><a href="/taxonomy/term/4397%2C4396">Eclipse Kura (122)</a></li>
+<li><a href="/taxonomy/term/4988%2C4396">Eclipse SmartHome (46)</a></li>
+</ul></li>
+<li><a href="/category/markets/rcp-applications">RCP Applications (79)</a></li>
+<li><a href="/category/markets/training-consulting">Training & Consulting (53)</a></li>
+<li><a href="/category/markets/long-term-support">Long Term Support (11)</a></li>
+</ul>  </div>
+
+</section> <!-- /.block -->
+<section id="block-marketplace-apachesolr-marketplace-apachesolr-sd-search" class="block block-marketplace-apachesolr marketplace-apachesolr-sd-search block-region-sidebar-first block-solstice-collapse solstice-block solstice-block-default solstice-block-white-bg block-marketplace-apachesolr-sd-search clearfix">
+
+        <h2 class="block-title">Search</h2>
+    
+  <div class="content-search">
+    <form class="search-form" action="/content/testng-eclipse/content.jar" method="post" id="search-form" accept-charset="UTF-8"><div><div class="form-inline form-wrapper form-group" id="edit-basic--2"><input type="hidden" name="get" value="[]" />
+<div class="form-item form-item-keys form-type-textfield form-autocomplete form-group"><div class="input-group"><input placeholder="Search" class="field-search-key auto_submit form-control form-text" type="text" id="edit-keys--2" name="keys" value="" size="30" maxlength="255" /><input class="autocomplete" disabled="disabled" id="edit-keys--2-autocomplete" type="hidden" value="https://marketplace.eclipse.org/index.php?q=apachesolr_autocomplete" />
+<span class="input-group-addon"><span class="icon glyphicon glyphicon-refresh" aria-hidden="true"></span>
+</span></div></div></div><input type="hidden" name="form_build_id" value="form-2-LLSPO7FjVm7ETMzNGSZMx7U5nEbBxlyRDKFpEG4Yg" />
+<input type="hidden" name="form_id" value="apachesolr_search_custom_page_search_form" />
+<fieldset  class="panel-warning collapsible panel panel-default form-wrapper" id="edit-advanced--2">
+          <legend class="panel-heading">
+      <a href="#edit-advanced-2-body" class="panel-title fieldset-legend collapsed" data-toggle="collapse">Advanced Search</a>
+    </legend>
+        <div class="panel-body panel-collapse collapse fade collapsed" id="edit-advanced-2-body">
+        <div id="search-category-replace"><div class="form-item form-item-category form-type-select form-group"> <label class="control-label" for="edit-category--2">Solutions Categories</label>
+<select class="form-control form-select" id="edit-category--2" name="category"><option value="0">All</option><option value="1964">Application Development Frameworks</option><option value="28">Application Management</option><option value="1">Application Server</option><option value="42">BIRT</option><option value="4">Build and Deploy</option><option value="1973">Business Intelligence, Reporting and Charting</option><option value="2">Code Management</option><option value="1968">Collaboration</option><option value="3">Database</option><option value="1970">Database Development</option><option value="36">Database Persistence</option><option value="5">Documentation</option><option value="4397">Eclipse Kura</option><option value="4988">Eclipse SmartHome</option><option value="1963">EclipseRT Target Platform Components</option><option value="6">Editor</option><option value="7">Entertainment</option><option value="1972">General Purpose Tools</option><option value="8">Graphics</option><option value="24">IDE</option><option value="3574">Internet of Things (IoT)</option><option value="9">J2EE Development Platform</option><option value="27">J2ME</option><option value="10">Languages</option><option value="1969">Linux Tools</option><option value="37">Logging</option><option value="1974">Mobile and Device Development</option><option value="1971">Modeling</option><option value="11">Modeling Tools</option><option value="38">Mylyn Connectors</option><option value="12">Network</option><option value="23">Other</option><option value="30">Process</option><option value="13">Profiling</option><option value="1966">Programming Languages</option><option value="39">Reporting</option><option value="6812">Science</option><option value="26">SCM</option><option value="40">Search</option><option value="1965">SOA Development</option><option value="14">Source Code Analyzer</option><option value="29">Systems Development</option><option value="15">Team Development</option><option value="16">Testing</option><option value="17">Tools</option><option value="18">UI</option><option value="19">UML</option><option value="20">Web</option><option value="21">Web Services</option><option value="1967">Web, XML, Java EE and OSGi Enterprise Development</option><option value="22">XML</option></select></div></div><div class="form-item form-item-market form-type-select form-group"> <label class="control-label" for="edit-market--2">Markets</label>
+<select class="form-control form-select" id="edit-market--2" name="market"><option value="0">All</option><option value="3891">Eclipse Project</option><option value="31">Tools</option><option value="4396">IoT</option><option value="33">RCP Applications</option><option value="34">Training &amp; Consulting</option></select></div><div class="form-item form-item-status form-type-select form-group"> <label class="control-label" for="edit-status--2">Status</label>
+<select class="form-control form-select" id="edit-status--2" name="status"><option value="0">All</option><option value="Production/Stable">Production/Stable</option><option value="Beta">Beta</option><option value="Mature">Mature</option><option value="Alpha">Alpha</option></select></div><div class="form-item form-item-license form-type-select form-group"> <label class="control-label" for="edit-license--2">License Type</label>
+<select class="form-control form-select" id="edit-license--2" name="license"><option value="0">All</option><option value="Commercial">Commercial</option><option value="Commercial - Free">Commercial - Free</option><option value="EPL">EPL</option><option value="GPL">GPL</option><option value="ASL">ASL</option><option value="MIT">MIT</option><option value="BSD-Like">BSD-Like</option><option value="LGPL">LGPL</option><option value="Free for non-commerical use">Free for non-commercial use</option><option value="Other Open Source">Other Open Source</option><option value="Other">Other</option></select></div>  </div>
+</fieldset>
+<button class="btn-warning btn form-submit" type="submit" id="edit-submit--2" name="op" value="Search">Search</button>
+</div></form>  </div>
+
+</section> <!-- /.block -->
+<section id="block-marketplace-favorites-marketplace-favorites-who" class="block block-marketplace-favorites marketplace-favorites-who block-region-sidebar-first block-solstice-collapse block-solstice-collapsed solstice-block solstice-block-default solstice-block-white-bg block-marketplace-favorites-who clearfix">
+
+        <h2 class="block-title"><i class="fa fa-star"></i> Favorited by</h2>
+    
+  <div class="block-content">
+       </div>
+
+</section> <!-- /.block -->
+  </div>
+        </aside><!-- /#sidebar-first -->
+      
+          </div>
+  </div>
+
+  </main>
+
+  <div class="eclipsefdn-featured-story featured-footer" data-publish-target="eclipse_org"><div class="container featured-container"></div></div><footer role="contentinfo" id="solstice-footer">
+  <div class="container">
+    <div class="row">
+
+      <section id="footer-eclipse-foundation" class="col-xs-offset-1 col-xs-11 col-sm-7 col-md-6 col-md-offset-0 hidden-print">
+                      <h2 class="section-title">Eclipse Foundation</h2>
+    <ul class="nav"><li><a href="https://www.eclipse.org/org/">About Us</a></li><li><a href="https://www.eclipse.org/org/foundation/contact.php">Contact Us</a></li><li><a href="https://www.eclipse.org/sponsor">Sponsor</a></li><li><a href="https://www.eclipse.org/membership/">Members</a></li><li><a href="https://www.eclipse.org/org/documents/">Governance</a></li><li><a href="https://www.eclipse.org/org/documents/Community_Code_of_Conduct.php">Code of Conduct</a></li><li><a href="https://www.eclipse.org/artwork/">Logo and Artwork</a></li><li><a href="https://www.eclipse.org/org/foundation/directors.php">Board of Directors</a></li><li><a href="https://www.eclipse.org/careers">Careers</a></li></ul>              </section>
+
+      <section id="footer-legal" class="col-xs-offset-1 col-xs-11 col-sm-7 col-md-6 col-md-offset-0 hidden-print">
+                      <h2 class="section-title">Legal</h2>
+    <ul class="nav"><li><a href="https://marketplace.eclipse.org/content/eclipse-marketplace-publishing-guidelines">Publishing Guidelines</a></li><li><a href="https://www.eclipse.org/legal/privacy.php">Privacy Policy</a></li><li><a href="https://www.eclipse.org/legal/termsofuse.php">Terms of Use</a></li><li><a href="https://www.eclipse.org/legal/copyright.php">Copyright Agent</a></li><li><a href="https://www.eclipse.org/legal/epl-2.0/">Eclipse Public License</a></li><li><a href="https://www.eclipse.org/legal/">Legal Resources</a></li></ul>              </section>
+
+      <section id="footer-useful-links" class="col-xs-offset-1 col-xs-11 col-sm-7 col-md-6 col-md-offset-0 hidden-print">
+                      <h2 class="section-title">Useful Links</h2>
+    <ul class="nav"><li><a href="https://marketplace.eclipse.org/content/welcome-eclipse-marketplace">Welcome to Marketplace</a></li><li><a href="https://bugs.eclipse.org/bugs/">Report a Bug</a></li><li><a href="//help.eclipse.org/">Documentation</a></li><li><a href="https://www.eclipse.org/contribute/">How to Contribute</a></li><li><a href="https://www.eclipse.org/mail/">Mailing Lists</a></li><li><a href="https://www.eclipse.org/forums/">Forums</a></li><li><a href="//marketplace.eclipse.org">Marketplace</a></li></ul>              </section>
+
+      <section id="footer-other" class="col-xs-offset-1 col-xs-11 col-sm-7 col-md-6 col-md-offset-0 hidden-print">
+                      <h2 class="section-title">Other</h2>
+    <ul class="nav"><li><a href="https://www.eclipse.org/ide/">IDE and Tools</a></li><li><a href="https://www.eclipse.org/projects">Projects</a></li><li><a href="https://www.eclipse.org/org/workinggroups/">Working Groups</a></li><li><a href="https://www.eclipse.org/org/research/">Research@Eclipse</a></li><li><a href="https://www.eclipse.org/security/">Report a Vulnerability</a></li><li><a href="https://status.eclipse.org">Service Status</a></li></ul>              </section>
+
+            <div class="col-sm-24 margin-top-20">
+        <div class="row">
+          <div id="copyright" class="col-md-16">
+            <p id="copyright-text">Copyright &copy; Eclipse Foundation. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-8 social-media">
+            <ul class="list-inline">
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://twitter.com/EclipseFdn" aria-label="Eclipse Foundation Twitter profile">
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://www.facebook.com/eclipse.org" aria-label="Eclipse Foundation Facebook page">
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://www.youtube.com/user/EclipseFdn" aria-label="Eclipse Foundation YouTube channel">
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-youtube fa-stack-1x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="social-media-link fa-stack fa-lg" href="https://www.linkedin.com/company/eclipse-foundation" aria-label="Eclipse Foundation Linkedin profile">
+                  <i class="fa fa-circle-thin fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>      <a href="#" class="scrollup">Back to the top</a>
+    </div>
+  </div>
+</footer>
+  </body>
+</html>
